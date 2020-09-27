@@ -11,6 +11,7 @@ namespace FeaturesPractice
     {
         // Create some data that are of types that implement IEnumerable<T>
         // Create an extension method extending IEnumerable<T>
+        // Use a Named Method, Anonymous Method, and finally a Lambda Expression to define filter criteria
         static void Main(string[] args)
         {
             IEnumerable<Customer> brickAndMortarCustomers = new Customer[]
@@ -25,12 +26,36 @@ namespace FeaturesPractice
                 new Customer { Id = 4, FullName = "Bob Plank"}
             };
 
-            Console.WriteLine(brickAndMortarCustomers.CountMinusOne());
-            IEnumerator<Customer> enumerator = brickAndMortarCustomers.GetEnumerator();
-            while (enumerator.MoveNext())
+            /*
+            // Named Method
+            foreach (var customer in brickAndMortarCustomers.Where(FullNameStartsWithM))
             {
-                Console.WriteLine(enumerator.Current.Id);
+                Console.WriteLine(customer.FullName);
             }
+            */
+
+            /*
+            // Anonymous Method
+            foreach (var customer in brickAndMortarCustomers.Where(
+                delegate (Customer customer)
+                {
+                    return customer.FullName.StartsWith("M");
+                }))
+            {
+                Console.WriteLine(customer.FullName);
+            }
+            */
+
+            // Lambda Expression
+            foreach (var customer in brickAndMortarCustomers.Where(c => c.FullName.StartsWith("M")))
+            {
+                Console.WriteLine(customer.FullName);
+            }
+        }
+
+        private static bool FullNameStartsWithM(Customer customer)
+        {
+            return customer.FullName.StartsWith("M");
         }
     }
 }
