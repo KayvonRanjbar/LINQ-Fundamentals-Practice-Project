@@ -16,7 +16,7 @@ namespace FeaturesPractice.Linq
         /// <returns></returns>
         public static int CountMinusOne<T>(this IEnumerable<T> sequence)
         {
-            int countMinusOne = 0;
+            var countMinusOne = 0;
             foreach (var item in sequence)
             {
                 countMinusOne++;

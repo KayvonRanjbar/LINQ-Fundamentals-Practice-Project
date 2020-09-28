@@ -13,6 +13,7 @@ namespace FeaturesPractice
         // Create an extension method extending IEnumerable<T>
         // Use a Named Method, Anonymous Method, and finally a Lambda Expression to define filter criteria
         // Create a Func<> that cubes an integer; a Func<> that subtracts 2 integers; update the filtering criteria; add ordering
+        // Use var to have cleaner-looking code
         static void Main(string[] args)
         {
             Func<int, int> cube = y => y * y * y;
@@ -22,7 +23,7 @@ namespace FeaturesPractice
             // With a full body block
             Func<int, int, int> subtract = (a, b) =>
             {
-                int result = a - b;
+                var result = a - b;
                 return result;
             };
 
@@ -33,14 +34,14 @@ namespace FeaturesPractice
             // With action
             write(cube(subtract(5, 3)));
 
-            IEnumerable<Customer> brickAndMortarCustomers = new Customer[]
+            var brickAndMortarCustomers = new Customer[]
             {
                 new Customer { Id = 1, FullName = "Joe Smith" },
                 new Customer { Id = 2, FullName = "Maggie Brown" },
                 new Customer { Id = 3, FullName = "Sammy Tegerson"}
             };
 
-            IEnumerable<Customer> eCommCustomers = new List<Customer>
+            var eCommCustomers = new List<Customer>
             {
                 new Customer { Id = 4, FullName = "Bob Plank"}
             };
@@ -70,8 +71,10 @@ namespace FeaturesPractice
              * foreach (var customer in brickAndMortarCustomers.Where(c => c.FullName.StartsWith("M")))
              */
             // Change filtering and order
-            foreach (var customer in brickAndMortarCustomers.Where(c => c.FullName.Contains("a"))
-                                                            .OrderByDescending(c => c.FullName))
+
+            var query = brickAndMortarCustomers.Where(c => c.FullName.Contains("a"))
+                                                .OrderByDescending(c => c.FullName);
+            foreach (var customer in query)
             {
                 Console.WriteLine(customer.FullName);
             }
