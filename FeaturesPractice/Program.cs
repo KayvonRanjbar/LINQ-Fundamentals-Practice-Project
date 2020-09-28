@@ -14,6 +14,7 @@ namespace FeaturesPractice
         // Use a Named Method, Anonymous Method, and finally a Lambda Expression to define filter criteria
         // Create a Func<> that cubes an integer; a Func<> that subtracts 2 integers; update the filtering criteria; add ordering
         // Use var to have cleaner-looking code
+        // Create the same query using query syntax
         static void Main(string[] args)
         {
             Func<int, int> cube = y => y * y * y;
@@ -71,10 +72,17 @@ namespace FeaturesPractice
              * foreach (var customer in brickAndMortarCustomers.Where(c => c.FullName.StartsWith("M")))
              */
             // Change filtering and order
+            // Method syntax
+            var methodSyntaxQuery = brickAndMortarCustomers.Where(c => c.FullName.Contains("a"))
+                                                .OrderBy(c => c.FullName);
 
-            var query = brickAndMortarCustomers.Where(c => c.FullName.Contains("a"))
-                                                .OrderByDescending(c => c.FullName);
-            foreach (var customer in query)
+            // Query syntax
+            var querySyntaxQuery = from brickAndMortarCustomer in brickAndMortarCustomers
+                                   where brickAndMortarCustomer.FullName.Contains("a")
+                                   orderby brickAndMortarCustomer.FullName
+                                   select brickAndMortarCustomer;
+
+            foreach (var customer in querySyntaxQuery)
             {
                 Console.WriteLine(customer.FullName);
             }
