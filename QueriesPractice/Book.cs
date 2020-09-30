@@ -10,6 +10,18 @@ namespace QueriesPractice
     {
         public string Title { get; set; }
         public string Author { get; set; }
-        public int YearPublished { get; set; }
+        int _yearPublished;
+        public int YearPublished
+        {
+            get
+            {
+                Console.WriteLine($"Returned {_yearPublished} for {Title}");
+                return _yearPublished;
+            }
+            set
+            {
+                _yearPublished = value;
+            }
+        }
     }
 }

@@ -10,6 +10,7 @@ namespace QueriesPractice
     {
         // Create a list of books and filter out books published after 1850
         // Create my own extension method for filtering
+        // Use yield return to use deferred execution with custom filter method
         static void Main(string[] args)
         {
             var books = new List<Book>
