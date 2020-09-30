@@ -12,6 +12,7 @@ namespace QueriesPractice
         // Create my own extension method for filtering
         // Use yield return to use deferred execution with custom filter method
         // See how deferred execution is happening
+        // Avoiding multiple enumerations by not using deferred execution
         static void Main(string[] args)
         {
             var books = new List<Book>
@@ -35,7 +36,14 @@ namespace QueriesPractice
 
             // trying out new method
             var queryWithMyCustomFilter = books.Filter(b => b.YearPublished <= 1850);
-            queryWithMyCustomFilter = queryWithMyCustomFilter.Take(1);
+            
+            // Deferred execution causes this to be enumerated twice
+            // queryWithMyCustomFilter = queryWithMyCustomFilter.Take(1);
+
+            // Enumerating the IEnumerable hear disables deferred execution so it only gets enumerated once
+            queryWithMyCustomFilter = queryWithMyCustomFilter.Take(1).ToList();
+
+            Console.WriteLine(queryWithMyCustomFilter.Count());
 
             //foreach (var item in queryWithMyCustomFilter)
             //{
