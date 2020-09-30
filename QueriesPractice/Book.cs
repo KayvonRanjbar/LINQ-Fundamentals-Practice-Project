@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace QueriesPractice
 {
+    [DebuggerDisplay("{" + nameof(GetDebuggerDisplay) + "(),nq}")]
     public class Book
     {
         public string Title { get; set; }
@@ -22,6 +24,11 @@ namespace QueriesPractice
             {
                 _yearPublished = value;
             }
+        }
+
+        private string GetDebuggerDisplay()
+        {
+            return $"{Title}: {YearPublished}";
         }
     }
 }

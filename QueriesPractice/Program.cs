@@ -11,6 +11,7 @@ namespace QueriesPractice
         // Create a list of books and filter out books published after 1850
         // Create my own extension method for filtering
         // Use yield return to use deferred execution with custom filter method
+        // See how deferred execution is happening
         static void Main(string[] args)
         {
             var books = new List<Book>
@@ -21,6 +22,7 @@ namespace QueriesPractice
             };
 
             // method syntax
+            /*
             var query = books.Where(b => b.YearPublished <= 1850);
 
             foreach (var item in query)
@@ -29,13 +31,22 @@ namespace QueriesPractice
             }
 
             Console.WriteLine("****");
+            */
 
             // trying out new method
             var queryWithMyCustomFilter = books.Filter(b => b.YearPublished <= 1850);
+            queryWithMyCustomFilter = queryWithMyCustomFilter.Take(1);
 
-            foreach (var item in queryWithMyCustomFilter)
+            //foreach (var item in queryWithMyCustomFilter)
+            //{
+            //    Console.WriteLine(item.Title);
+            //}
+
+            // Use the enumerator to see how deferred execution happens
+            var enumerator = queryWithMyCustomFilter.GetEnumerator();
+            while (enumerator.MoveNext())
             {
-                Console.WriteLine(item.Title);
+                Console.WriteLine(enumerator.Current.Title);
             }
         }
     }
