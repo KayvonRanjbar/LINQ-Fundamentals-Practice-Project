@@ -10,12 +10,24 @@ namespace Cars
     class Program
     {
         // Implement a file processor to transform the csv file into a list of cars in memory
+        // Find the most fuel efficient cars
         static void Main(string[] args)
         {
             var cars = ProcessFile("fuel.csv");
-            foreach (var car in cars)
+
+            // method syntax
+            //var query = cars.OrderByDescending(c => c.Combined)
+            //                .ThenBy(c => c.Name);
+
+            // query syntax
+            var query =
+                from car in cars
+                orderby car.Combined descending, car.Highway descending
+                select car;
+
+            foreach (var car in query.Take(15))
             {
-                Console.WriteLine(car.Name);
+                Console.WriteLine($"{car.Name} : {car.Combined} : {car.Highway}");
             }
         }
 
