@@ -1,15 +1,15 @@
 Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,Honda,NSX,3.5,6,21,22,21
 2020,FCA US LLC,4C,1.8,4,24,34,28
-2020,aston martin,Vantage Manual,4.0,8,14,21,17
-2020,aston martin,Vantage V8,4.0,8,18,24,20
+2020,aston martin,Vantage Manual,4,8,14,21,17
+2020,aston martin,Vantage V8,4,8,18,24,20
 2020,Volkswagen Group of,R8,5.2,10,13,20,16
 2020,Volkswagen Group of,R8 Spyder,5.2,10,13,20,16
-2020,Volkswagen Group of,TT Roadster quattro,2.0,4,23,31,26
-2020,BMW,Z4 M40i,3.0,6,24,31,26
-2020,BMW,Z4 sDrive30i,2.0,4,24,32,27
-2020,Volkswagen Group of,Chiron,8.0,16,9,14,11
-2020,Volkswagen Group of,Divo,8.0,16,9,13,10
+2020,Volkswagen Group of,TT Roadster quattro,2,4,23,31,26
+2020,BMW,Z4 M40i,3,6,24,31,26
+2020,BMW,Z4 sDrive30i,2,4,24,32,27
+2020,Volkswagen Group of,Chiron,8,16,9,14,11
+2020,Volkswagen Group of,Divo,8,16,9,13,10
 2020,General Motors,CORVETTE,6.2,8,15,27,19
 2020,Ferrari,488 Pista,3.9,8,15,20,17
 2020,Ferrari,488 Pista Spider,3.9,8,15,19,17
@@ -18,67 +18,67 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,FCA US LLC,124 Spider,1.4,4,25,36,29
 2020,FCA US LLC,124 Spider,1.4,4,26,35,30
 2020,Ford Motor Company,FORD GT,3.5,6,12,18,14
-2020,Jaguar Land Rover L,F-TYPE AWD Convertible,5.0,8,16,24,18
-2020,Jaguar Land Rover L,F-TYPE AWD Coupe,5.0,8,16,24,18
-2020,Jaguar Land Rover L,F-TYPE Convertible,2.0,4,23,30,26
-2020,Jaguar Land Rover L,F-TYPE Convertible,3.0,6,20,28,23
-2020,Jaguar Land Rover L,F-TYPE Coupe,2.0,4,23,30,26
-2020,Jaguar Land Rover L,F-TYPE Coupe,3.0,6,20,28,23
-2020,Jaguar Land Rover L,F-TYPE S AWD Convertible,3.0,6,18,26,21
-2020,Jaguar Land Rover L,F-TYPE S AWD Coupe,3.0,6,18,26,21
-2020,Jaguar Land Rover L,F-TYPE S Convertible,3.0,6,19,27,22
-2020,Jaguar Land Rover L,F-TYPE S Coupe,3.0,6,19,27,22
-2020,Jaguar Land Rover L,F-TYPE SVR AWD Convertible,5.0,8,16,24,18
-2020,Jaguar Land Rover L,F-TYPE SVR AWD Coupe,5.0,8,16,24,18
+2020,Jaguar Land Rover L,F-TYPE AWD Convertible,5,8,16,24,18
+2020,Jaguar Land Rover L,F-TYPE AWD Coupe,5,8,16,24,18
+2020,Jaguar Land Rover L,F-TYPE Convertible,2,4,23,30,26
+2020,Jaguar Land Rover L,F-TYPE Convertible,3,6,20,28,23
+2020,Jaguar Land Rover L,F-TYPE Coupe,2,4,23,30,26
+2020,Jaguar Land Rover L,F-TYPE Coupe,3,6,20,28,23
+2020,Jaguar Land Rover L,F-TYPE S AWD Convertible,3,6,18,26,21
+2020,Jaguar Land Rover L,F-TYPE S AWD Coupe,3,6,18,26,21
+2020,Jaguar Land Rover L,F-TYPE S Convertible,3,6,19,27,22
+2020,Jaguar Land Rover L,F-TYPE S Coupe,3,6,19,27,22
+2020,Jaguar Land Rover L,F-TYPE SVR AWD Convertible,5,8,16,24,18
+2020,Jaguar Land Rover L,F-TYPE SVR AWD Coupe,5,8,16,24,18
 2020,Volkswagen Group of,Aventador Coupe,6.5,12,9,15,11
 2020,Volkswagen Group of,Aventador Roadster,6.5,12,9,15,11
 2020,Volkswagen Group of,Huracan,5.2,10,13,18,15
 2020,Volkswagen Group of,Huracan 2WD,5.2,10,13,18,15
 2020,Volkswagen Group of,Huracan Spyder,5.2,10,13,18,15
 2020,Volkswagen Group of,Huracan Spyder 2WD,5.2,10,13,18,15
-2020,MAZDA,MX-5,2.0,4,26,35,30
-2020,MAZDA,MX-5,2.0,4,26,34,29
+2020,MAZDA,MX-5,2,4,26,35,30
+2020,MAZDA,MX-5,2,4,26,34,29
 2020,McLaren Automotive ,570S Coupe,3.8,8,15,22,18
 2020,McLaren Automotive ,570S Spider,3.8,8,15,22,18
 2020,McLaren Automotive ,600LT Spider,3.8,8,15,22,18
 2020,McLaren Automotive ,620R Coupe,3.8,8,15,22,18
-2020,McLaren Automotive ,720S Coupe,4.0,8,15,22,18
-2020,McLaren Automotive ,720S Spider,4.0,8,15,22,18
-2020,McLaren Automotive ,GT,4.0,8,15,22,18
-2020,McLaren Automotive ,Speedtail,4.0,8,12,20,15
-2020,Mercedes-Benz,AMG GT (coupe),4.0,8,16,22,18
-2020,Mercedes-Benz,AMG GT (roadster),4.0,8,16,22,18
-2020,Mercedes-Benz,AMG GT C (coupe),4.0,8,15,21,17
-2020,Mercedes-Benz,AMG GT C (roadster),4.0,8,15,20,17
-2020,Mercedes-Benz,AMG GT R (coupe),4.0,8,15,20,17
-2020,Mercedes-Benz,AMG GT R (roadster),4.0,8,15,20,17
-2020,Mercedes-Benz,AMG SLC 43,3.0,6,20,29,23
-2020,Mercedes-Benz,SL 450,3.0,6,20,28,22
+2020,McLaren Automotive ,720S Coupe,4,8,15,22,18
+2020,McLaren Automotive ,720S Spider,4,8,15,22,18
+2020,McLaren Automotive ,GT,4,8,15,22,18
+2020,McLaren Automotive ,Speedtail,4,8,12,20,15
+2020,Mercedes-Benz,AMG GT (coupe),4,8,16,22,18
+2020,Mercedes-Benz,AMG GT (roadster),4,8,16,22,18
+2020,Mercedes-Benz,AMG GT C (coupe),4,8,15,21,17
+2020,Mercedes-Benz,AMG GT C (roadster),4,8,15,20,17
+2020,Mercedes-Benz,AMG GT R (coupe),4,8,15,20,17
+2020,Mercedes-Benz,AMG GT R (roadster),4,8,15,20,17
+2020,Mercedes-Benz,AMG SLC 43,3,6,20,29,23
+2020,Mercedes-Benz,SL 450,3,6,20,28,22
 2020,Mercedes-Benz,SL 550,4.7,8,17,25,20
-2020,Mercedes-Benz,SLC 300,2.0,4,23,32,27
+2020,Mercedes-Benz,SLC 300,2,4,23,32,27
 2020,Nissan,370Z,3.7,6,19,26,22
 2020,Nissan,370Z,3.7,6,17,26,20
 2020,Nissan,370Z Roadster,3.7,6,18,25,21
-2020,Porsche,718 Cayman GT4,4.0,6,16,23,19
-2020,Porsche,718 Spyder,4.0,6,16,23,19
-2020,Porsche,Boxster,2.0,4,21,27,24
-2020,Porsche,Boxster,2.0,4,20,26,22
+2020,Porsche,718 Cayman GT4,4,6,16,23,19
+2020,Porsche,718 Spyder,4,6,16,23,19
+2020,Porsche,Boxster,2,4,21,27,24
+2020,Porsche,Boxster,2,4,20,26,22
 2020,Porsche,Boxster S,2.5,4,19,25,22
 2020,Porsche,Boxster S,2.5,4,19,24,21
-2020,Porsche,Boxster T,2.0,4,21,27,23
-2020,Porsche,Boxster T,2.0,4,20,26,22
-2020,Porsche,Cayman,2.0,4,21,27,24
-2020,Porsche,Cayman,2.0,4,20,26,22
+2020,Porsche,Boxster T,2,4,21,27,23
+2020,Porsche,Boxster T,2,4,20,26,22
+2020,Porsche,Cayman,2,4,21,27,24
+2020,Porsche,Cayman,2,4,20,26,22
 2020,Porsche,Cayman S,2.5,4,19,25,22
 2020,Porsche,Cayman S,2.5,4,19,24,21
-2020,Porsche,Cayman T,2.0,4,21,27,23
-2020,Porsche,Cayman T,2.0,4,20,26,22
-2020,BMW,Supra 3.0,3.0,6,24,31,26
+2020,Porsche,Cayman T,2,4,21,27,23
+2020,Porsche,Cayman T,2,4,20,26,22
+2020,BMW,Supra 3.0,3,6,24,31,26
 2020,aston martin,DB11 V12,5.2,12,15,22,18
-2020,aston martin,DB11 V8,4.0,8,18,24,20
+2020,aston martin,DB11 V8,4,8,18,24,20
 2020,aston martin,DBS,5.2,12,14,22,17
-2020,Volkswagen Group of,Continental GT Convertible,4.0,8,16,26,19
-2020,Volkswagen Group of,Continental GT Convertible,6.0,12,12,19,15
+2020,Volkswagen Group of,Continental GT Convertible,4,8,16,26,19
+2020,Volkswagen Group of,Continental GT Convertible,6,12,12,19,15
 2020,Ferrari,GTC4Lusso,6.3,12,12,17,13
 2020,Ferrari,GTC4Lusso T,3.9,8,15,21,17
 2020,Ferrari,Portofino,3.9,8,16,22,18
@@ -87,77 +87,77 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,Lotus,Evora GT,3.5,6,17,24,20
 2020,Lotus,Evora GT,3.5,6,17,26,20
 2020,BMW,COOPER CONVERTIBLE,1.5,3,28,36,31
-2020,BMW,COOPER S CONVERTIBLE,2.0,4,26,34,29
-2020,BMW,JOHN COOPER WORKS CONVERTIBLE,2.0,4,25,33,28
-2020,Porsche,911 Carrera,3.0,6,18,24,20
-2020,Porsche,911 Carrera 4,3.0,6,18,24,20
-2020,Porsche,911 Carrera 4 Cabriolet,3.0,6,18,24,20
-2020,Porsche,911 Carrera 4S,3.0,6,18,23,20
-2020,Porsche,911 Carrera 4S,3.0,6,17,24,20
-2020,Porsche,911 Carrera 4S Cabriolet,3.0,6,18,23,20
-2020,Porsche,911 Carrera 4S Cabriolet,3.0,6,17,24,20
-2020,Porsche,911 Carrera Cabriolet,3.0,6,17,24,20
-2020,Porsche,911 Carrera S,3.0,6,18,24,20
-2020,Porsche,911 Carrera S,3.0,6,17,25,20
-2020,Porsche,911 Carrera S Cabriolet,3.0,6,18,23,20
-2020,Porsche,911 Carrera S Cabriolet,3.0,6,17,25,20
-2020,Subaru,BRZ,2.0,4,24,33,27
-2020,Subaru,BRZ,2.0,4,21,29,24
-2020,Subaru,BRZ tS,2.0,4,20,27,23
-2020,Toyota,86,2.0,4,24,32,27
-2020,Toyota,86,2.0,4,21,28,24
-2020,Volkswagen Group of,A3,2.0,4,27,36,30
-2020,Volkswagen Group of,A3 Cabriolet quattro,2.0,4,22,30,25
-2020,Volkswagen Group of,A3 quattro,2.0,4,22,30,25
-2020,Volkswagen Group of,A5 Cabriolet quattro,2.0,4,23,31,26
-2020,Volkswagen Group of,A5 quattro,2.0,4,24,32,27
+2020,BMW,COOPER S CONVERTIBLE,2,4,26,34,29
+2020,BMW,JOHN COOPER WORKS CONVERTIBLE,2,4,25,33,28
+2020,Porsche,911 Carrera,3,6,18,24,20
+2020,Porsche,911 Carrera 4,3,6,18,24,20
+2020,Porsche,911 Carrera 4 Cabriolet,3,6,18,24,20
+2020,Porsche,911 Carrera 4S,3,6,18,23,20
+2020,Porsche,911 Carrera 4S,3,6,17,24,20
+2020,Porsche,911 Carrera 4S Cabriolet,3,6,18,23,20
+2020,Porsche,911 Carrera 4S Cabriolet,3,6,17,24,20
+2020,Porsche,911 Carrera Cabriolet,3,6,17,24,20
+2020,Porsche,911 Carrera S,3,6,18,24,20
+2020,Porsche,911 Carrera S,3,6,17,25,20
+2020,Porsche,911 Carrera S Cabriolet,3,6,18,23,20
+2020,Porsche,911 Carrera S Cabriolet,3,6,17,25,20
+2020,Subaru,BRZ,2,4,24,33,27
+2020,Subaru,BRZ,2,4,21,29,24
+2020,Subaru,BRZ tS,2,4,20,27,23
+2020,Toyota,86,2,4,24,32,27
+2020,Toyota,86,2,4,21,28,24
+2020,Volkswagen Group of,A3,2,4,27,36,30
+2020,Volkswagen Group of,A3 Cabriolet quattro,2,4,22,30,25
+2020,Volkswagen Group of,A3 quattro,2,4,22,30,25
+2020,Volkswagen Group of,A5 Cabriolet quattro,2,4,23,31,26
+2020,Volkswagen Group of,A5 quattro,2,4,24,32,27
 2020,Volkswagen Group of,RS3,2.5,5,19,28,23
-2020,Volkswagen Group of,S3,2.0,4,22,29,25
-2020,Volkswagen Group of,S5,3.0,6,20,27,23
-2020,Volkswagen Group of,S5 Cabriolet,3.0,6,19,26,22
-2020,Volkswagen Group of,TT Coupe quattro,2.0,4,23,31,26
+2020,Volkswagen Group of,S3,2,4,22,29,25
+2020,Volkswagen Group of,S5,3,6,20,27,23
+2020,Volkswagen Group of,S5 Cabriolet,3,6,19,26,22
+2020,Volkswagen Group of,TT Coupe quattro,2,4,23,31,26
 2020,Volkswagen Group of,TT RS,2.5,5,19,29,23
-2020,Volkswagen Group of,TTS Coupe,2.0,4,23,29,25
-2020,Volkswagen Group of,Continental GT,4.0,8,16,26,19
-2020,Volkswagen Group of,Continental GT,6.0,12,12,20,15
-2020,BMW,230i Convertible,2.0,4,23,34,27
-2020,BMW,230i Coupe,2.0,4,24,32,27
-2020,BMW,230i Coupe,2.0,4,21,32,25
-2020,BMW,230i xDrive Convertible,2.0,4,21,31,24
-2020,BMW,230i xDrive Coupe,2.0,4,21,31,24
-2020,BMW,430i Convertible,2.0,4,23,34,27
-2020,BMW,430i xDrive Convertible,2.0,4,22,32,26
-2020,BMW,440i Convertible,3.0,6,22,29,24
-2020,BMW,440i xDrive Convertible,3.0,6,20,28,23
-2020,BMW,840i Convertible,3.0,6,22,29,24
-2020,BMW,840i Coupe,3.0,6,23,30,25
-2020,BMW,840i xDrive Convertible,3.0,6,20,27,23
-2020,BMW,840i xDrive Coupe,3.0,6,21,27,23
-2020,BMW,M2 Competition Coupe,3.0,6,17,23,19
-2020,BMW,M2 Competition Coupe,3.0,6,18,25,20
-2020,BMW,M2 CS Coupe,3.0,6,16,23,19
-2020,BMW,M2 CS Coupe,3.0,6,17,24,20
-2020,BMW,M240i Convertible,3.0,6,22,30,25
-2020,BMW,M240i Convertible,3.0,6,19,27,22
-2020,BMW,M240i Coupe,3.0,6,22,30,25
-2020,BMW,M240i Coupe,3.0,6,19,27,22
-2020,BMW,M240i Coupe M Performance,3.0,6,22,30,25
-2020,BMW,M240i Coupe M Performance,3.0,6,19,27,22
-2020,BMW,M240i xDrive Convertible,3.0,6,22,30,25
-2020,BMW,M240i xDrive Coupe,3.0,6,22,30,25
-2020,BMW,M240i xDrive Coupe M Performance,3.0,6,22,30,25
-2020,BMW,M4 Convertible,3.0,6,16,22,19
-2020,BMW,M4 Convertible,3.0,6,17,25,20
-2020,BMW,M4 Convertible Competition,3.0,6,16,22,19
-2020,BMW,M4 Convertible Competition,3.0,6,17,25,20
+2020,Volkswagen Group of,TTS Coupe,2,4,23,29,25
+2020,Volkswagen Group of,Continental GT,4,8,16,26,19
+2020,Volkswagen Group of,Continental GT,6,12,12,20,15
+2020,BMW,230i Convertible,2,4,23,34,27
+2020,BMW,230i Coupe,2,4,24,32,27
+2020,BMW,230i Coupe,2,4,21,32,25
+2020,BMW,230i xDrive Convertible,2,4,21,31,24
+2020,BMW,230i xDrive Coupe,2,4,21,31,24
+2020,BMW,430i Convertible,2,4,23,34,27
+2020,BMW,430i xDrive Convertible,2,4,22,32,26
+2020,BMW,440i Convertible,3,6,22,29,24
+2020,BMW,440i xDrive Convertible,3,6,20,28,23
+2020,BMW,840i Convertible,3,6,22,29,24
+2020,BMW,840i Coupe,3,6,23,30,25
+2020,BMW,840i xDrive Convertible,3,6,20,27,23
+2020,BMW,840i xDrive Coupe,3,6,21,27,23
+2020,BMW,M2 Competition Coupe,3,6,17,23,19
+2020,BMW,M2 Competition Coupe,3,6,18,25,20
+2020,BMW,M2 CS Coupe,3,6,16,23,19
+2020,BMW,M2 CS Coupe,3,6,17,24,20
+2020,BMW,M240i Convertible,3,6,22,30,25
+2020,BMW,M240i Convertible,3,6,19,27,22
+2020,BMW,M240i Coupe,3,6,22,30,25
+2020,BMW,M240i Coupe,3,6,19,27,22
+2020,BMW,M240i Coupe M Performance,3,6,22,30,25
+2020,BMW,M240i Coupe M Performance,3,6,19,27,22
+2020,BMW,M240i xDrive Convertible,3,6,22,30,25
+2020,BMW,M240i xDrive Coupe,3,6,22,30,25
+2020,BMW,M240i xDrive Coupe M Performance,3,6,22,30,25
+2020,BMW,M4 Convertible,3,6,16,22,19
+2020,BMW,M4 Convertible,3,6,17,25,20
+2020,BMW,M4 Convertible Competition,3,6,16,22,19
+2020,BMW,M4 Convertible Competition,3,6,17,25,20
 2020,BMW,M8 Competition Convertible,4.4,8,15,21,17
 2020,BMW,M8 Competition Coupe,4.4,8,15,21,17
 2020,BMW,M8 Convertible,4.4,8,15,21,17
 2020,BMW,M8 Coupe,4.4,8,15,21,17
 2020,BMW,M850i xDrive Convertible,4.4,8,17,25,20
 2020,BMW,M850i xDrive Coupe,4.4,8,18,25,20
-2020,General Motors,CAMARO,2.0,4,22,31,25
-2020,General Motors,CAMARO,2.0,4,20,30,23
+2020,General Motors,CAMARO,2,4,22,31,25
+2020,General Motors,CAMARO,2,4,20,30,23
 2020,General Motors,CAMARO,3.6,6,19,29,22
 2020,General Motors,CAMARO,3.6,6,16,26,20
 2020,General Motors,CAMARO,6.2,8,13,21,16
@@ -170,58 +170,58 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,General Motors,SPARK ACTIV,1.4,4,29,37,32
 2020,Ford Motor Company,MUSTANG,2.3,4,21,32,25
 2020,Ford Motor Company,MUSTANG,2.3,4,21,30,24
-2020,Ford Motor Company,MUSTANG,5.0,8,16,25,19
-2020,Ford Motor Company,MUSTANG,5.0,8,15,24,18
-2020,Ford Motor Company,MUSTANG BULLITT,5.0,8,14,23,17
+2020,Ford Motor Company,MUSTANG,5,8,16,25,19
+2020,Ford Motor Company,MUSTANG,5,8,15,24,18
+2020,Ford Motor Company,MUSTANG BULLITT,5,8,14,23,17
 2020,Ford Motor Company,MUSTANG CONVERTIBLE,2.3,4,20,28,23
 2020,Ford Motor Company,MUSTANG CONVERTIBLE,2.3,4,20,28,23
-2020,Ford Motor Company,MUSTANG CONVERTIBLE,5.0,8,15,24,18
+2020,Ford Motor Company,MUSTANG CONVERTIBLE,5,8,15,24,18
 2020,Ford Motor Company,MUSTANG HO CONVERTIBLE,2.3,4,20,27,23
 2020,Ford Motor Company,MUSTANG HO CONVERTIBLE,2.3,4,19,26,22
 2020,Ford Motor Company,MUSTANG HO COUPE,2.3,4,20,28,23
 2020,Ford Motor Company,MUSTANG HO COUPE,2.3,4,20,27,23
 2020,Ford Motor Company,SHELBY GT350 MUSTANG,5.2,8,14,21,16
 2020,Ford Motor Company,SHELBY GT500 MUSTANG,5.2,8,12,18,14
-2020,Nissan,Q60,3.0,6,19,28,22
-2020,Nissan,Q60 AWD,3.0,6,19,27,22
-2020,Nissan,Q60 AWD RED SPORT,3.0,6,19,26,21
-2020,Nissan,Q60 RED SPORT,3.0,6,20,27,22
-2020,Toyota,LC 500,5.0,8,16,25,19
+2020,Nissan,Q60,3,6,19,28,22
+2020,Nissan,Q60 AWD,3,6,19,27,22
+2020,Nissan,Q60 AWD RED SPORT,3,6,19,26,21
+2020,Nissan,Q60 RED SPORT,3,6,20,27,22
+2020,Toyota,LC 500,5,8,16,25,19
 2020,Toyota,LC 500h,3.5,6,27,35,30
-2020,Toyota,RC 300,2.0,4,21,30,24
+2020,Toyota,RC 300,2,4,21,30,24
 2020,Toyota,RC 300 AWD,3.5,6,18,24,21
 2020,Toyota,RC 350,3.5,6,20,28,23
 2020,Toyota,RC 350 AWD,3.5,6,19,26,21
-2020,Toyota,RC F,5.0,8,16,24,19
-2020,Mercedes-Benz,A 220,2.0,4,24,35,28
-2020,Mercedes-Benz,A 220 4MATIC,2.0,4,24,34,28
-2020,Mercedes-Benz,AMG A 35 4MATIC,2.0,4,24,31,27
-2020,Mercedes-Benz,AMG C 43 4MATIC (convertible),3.0,6,18,25,21
-2020,Mercedes-Benz,AMG C 43 4MATIC (coupe),3.0,6,19,27,22
-2020,Mercedes-Benz,AMG C 63 (convertible),4.0,8,17,24,20
-2020,Mercedes-Benz,AMG C 63 (coupe),4.0,8,17,26,20
-2020,Mercedes-Benz,AMG C 63 S (convertible),4.0,8,17,24,20
-2020,Mercedes-Benz,AMG C 63 S (coupe),4.0,8,17,26,20
-2020,Mercedes-Benz,AMG E 53 4MATIC+ (Convertible),3.0,6,20,26,23
-2020,Mercedes-Benz,AMG E 53 4MATIC+ (Coupe),3.0,6,21,28,23
-2020,Mercedes-Benz,AMG S 63 4MATIC+ (convertible),4.0,8,15,24,18
-2020,Mercedes-Benz,C 300 (convertible),2.0,4,21,29,24
-2020,Mercedes-Benz,C 300 (Coupe),2.0,4,22,31,25
-2020,Mercedes-Benz,C 300 4MATIC (convertible),2.0,4,21,29,24
-2020,Mercedes-Benz,C 300 4MATIC (Coupe),2.0,4,21,30,25
-2020,Mercedes-Benz,E 450 (convertible),3.0,6,20,27,23
-2020,Mercedes-Benz,E 450 (coupe),3.0,6,20,28,23
-2020,Mercedes-Benz,E 450 4MATIC (convertible),3.0,6,19,26,22
-2020,Mercedes-Benz,E 450 4MATIC (coupe),3.0,6,19,26,22
-2020,Mercedes-Benz,S 560 (convertible),4.0,8,17,26,20
+2020,Toyota,RC F,5,8,16,24,19
+2020,Mercedes-Benz,A 220,2,4,24,35,28
+2020,Mercedes-Benz,A 220 4MATIC,2,4,24,34,28
+2020,Mercedes-Benz,AMG A 35 4MATIC,2,4,24,31,27
+2020,Mercedes-Benz,AMG C 43 4MATIC (convertible),3,6,18,25,21
+2020,Mercedes-Benz,AMG C 43 4MATIC (coupe),3,6,19,27,22
+2020,Mercedes-Benz,AMG C 63 (convertible),4,8,17,24,20
+2020,Mercedes-Benz,AMG C 63 (coupe),4,8,17,26,20
+2020,Mercedes-Benz,AMG C 63 S (convertible),4,8,17,24,20
+2020,Mercedes-Benz,AMG C 63 S (coupe),4,8,17,26,20
+2020,Mercedes-Benz,AMG E 53 4MATIC+ (Convertible),3,6,20,26,23
+2020,Mercedes-Benz,AMG E 53 4MATIC+ (Coupe),3,6,21,28,23
+2020,Mercedes-Benz,AMG S 63 4MATIC+ (convertible),4,8,15,24,18
+2020,Mercedes-Benz,C 300 (convertible),2,4,21,29,24
+2020,Mercedes-Benz,C 300 (Coupe),2,4,22,31,25
+2020,Mercedes-Benz,C 300 4MATIC (convertible),2,4,21,29,24
+2020,Mercedes-Benz,C 300 4MATIC (Coupe),2,4,21,30,25
+2020,Mercedes-Benz,E 450 (convertible),3,6,20,27,23
+2020,Mercedes-Benz,E 450 (coupe),3,6,20,28,23
+2020,Mercedes-Benz,E 450 4MATIC (convertible),3,6,19,26,22
+2020,Mercedes-Benz,E 450 4MATIC (coupe),3,6,19,26,22
+2020,Mercedes-Benz,S 560 (convertible),4,8,17,26,20
 2020,BMW,COOPER HARDTOP 2 DOOR,1.5,3,28,36,31
 2020,BMW,COOPER HARDTOP 4 DOOR,1.5,3,28,36,31
-2020,BMW,COOPER S HARDTOP 2 DOOR,2.0,4,26,35,30
-2020,BMW,COOPER S HARDTOP 4 DOOR,2.0,4,26,35,30
-2020,BMW,JOHN COOPER WORKS HARDTOP,2.0,4,26,34,29
+2020,BMW,COOPER S HARDTOP 2 DOOR,2,4,26,35,30
+2020,BMW,COOPER S HARDTOP 4 DOOR,2,4,26,35,30
+2020,BMW,JOHN COOPER WORKS HARDTOP,2,4,26,34,29
 2020,Nissan,GT-R,3.8,6,16,22,18
-2020,Roush,Roush Stage 3 Mustang,5.0,8,12,18,14
-2020,Roush,Roush Stage 3 Mustang,5.0,8,13,20,15
+2020,Roush,Roush Stage 3 Mustang,5,8,12,18,14
+2020,Roush,Roush Stage 3 Mustang,5,8,13,20,15
 2020,Honda,ILX,2.4,4,24,34,28
 2020,Honda,TLX AWD,3.5,6,20,29,23
 2020,Honda,TLX AWD A-SPEC,3.5,6,20,29,23
@@ -229,92 +229,92 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,Honda,TLX FWD,3.5,6,20,31,24
 2020,Honda,TLX FWD A-SPEC,2.4,4,23,32,26
 2020,Honda,TLX FWD A-SPEC,3.5,6,20,30,23
-2020,Volkswagen Group of,A4,2.0,4,27,35,30
-2020,Volkswagen Group of,A4 quattro,2.0,4,24,32,27
-2020,Volkswagen Group of,S4,3.0,6,20,27,23
-2020,BMW,228i XDRIVE GRAN COUPE,2.0,4,23,33,27
-2020,BMW,330i,2.0,4,26,36,30
-2020,BMW,330i xDrive,2.0,4,25,34,28
-2020,BMW,430i Coupe,2.0,4,23,34,27
-2020,BMW,430i Coupe,2.0,4,21,33,25
-2020,BMW,430i Gran Coupe,2.0,4,23,34,27
-2020,BMW,430i xDrive Coupe,2.0,4,21,31,24
-2020,BMW,430i xDrive Gran Coupe,2.0,4,21,31,24
-2020,BMW,440i Coupe,3.0,6,22,30,25
-2020,BMW,440i Coupe,3.0,6,19,27,22
-2020,BMW,440i Gran Coupe,3.0,6,22,30,25
-2020,BMW,440i xDrive Coupe,3.0,6,22,30,25
-2020,BMW,440i xDrive Coupe,3.0,6,18,28,21
-2020,BMW,440i xDrive Gran Coupe,3.0,6,22,30,25
-2020,BMW,M235i xDrive,2.0,4,23,32,26
-2020,BMW,M340i,3.0,6,22,30,25
-2020,BMW,M340i xDrive,3.0,6,22,30,25
-2020,BMW,M4 Coupe,3.0,6,17,23,19
-2020,BMW,M4 Coupe,3.0,6,18,25,20
-2020,BMW,M4 Coupe Competition,3.0,6,17,23,19
-2020,BMW,M4 Coupe Competition,3.0,6,18,25,20
-2020,BMW,M4 CS,3.0,6,17,23,19
-2020,General Motors,CT4,2.0,4,23,34,27
+2020,Volkswagen Group of,A4,2,4,27,35,30
+2020,Volkswagen Group of,A4 quattro,2,4,24,32,27
+2020,Volkswagen Group of,S4,3,6,20,27,23
+2020,BMW,228i XDRIVE GRAN COUPE,2,4,23,33,27
+2020,BMW,330i,2,4,26,36,30
+2020,BMW,330i xDrive,2,4,25,34,28
+2020,BMW,430i Coupe,2,4,23,34,27
+2020,BMW,430i Coupe,2,4,21,33,25
+2020,BMW,430i Gran Coupe,2,4,23,34,27
+2020,BMW,430i xDrive Coupe,2,4,21,31,24
+2020,BMW,430i xDrive Gran Coupe,2,4,21,31,24
+2020,BMW,440i Coupe,3,6,22,30,25
+2020,BMW,440i Coupe,3,6,19,27,22
+2020,BMW,440i Gran Coupe,3,6,22,30,25
+2020,BMW,440i xDrive Coupe,3,6,22,30,25
+2020,BMW,440i xDrive Coupe,3,6,18,28,21
+2020,BMW,440i xDrive Gran Coupe,3,6,22,30,25
+2020,BMW,M235i xDrive,2,4,23,32,26
+2020,BMW,M340i,3,6,22,30,25
+2020,BMW,M340i xDrive,3,6,22,30,25
+2020,BMW,M4 Coupe,3,6,17,23,19
+2020,BMW,M4 Coupe,3,6,18,25,20
+2020,BMW,M4 Coupe Competition,3,6,17,23,19
+2020,BMW,M4 Coupe Competition,3,6,18,25,20
+2020,BMW,M4 CS,3,6,17,23,19
+2020,General Motors,CT4,2,4,23,34,27
 2020,General Motors,CT4,2.7,4,20,30,24
-2020,General Motors,CT4 AWD,2.0,4,23,32,26
+2020,General Motors,CT4 AWD,2,4,23,32,26
 2020,General Motors,CT4 AWD,2.7,4,20,28,23
 2020,General Motors,CT4 V,2.7,4,20,29,23
 2020,General Motors,CT4 V AWD,2.7,4,20,28,23
 2020,General Motors,SONIC,1.4,4,26,34,29
-2020,Hyundai,G70 AWD,2.0,4,20,27,23
+2020,Hyundai,G70 AWD,2,4,20,27,23
 2020,Hyundai,G70 AWD,3.3,6,17,25,20
-2020,Hyundai,G70 RWD,2.0,4,22,30,25
-2020,Hyundai,G70 RWD,2.0,4,18,28,22
+2020,Hyundai,G70 RWD,2,4,22,30,25
+2020,Hyundai,G70 RWD,2,4,18,28,22
 2020,Hyundai,G70 RWD,3.3,6,17,26,20
 2020,Honda,CIVIC 2DR,1.5,4,31,40,35
 2020,Honda,CIVIC 2DR,1.5,4,30,37,33
 2020,Honda,CIVIC 2DR,1.5,4,26,36,30
-2020,Honda,CIVIC 2DR,2.0,4,30,38,33
-2020,Honda,CIVIC 2DR,2.0,4,29,36,32
-2020,Honda,CIVIC 2DR,2.0,4,25,35,29
+2020,Honda,CIVIC 2DR,2,4,30,38,33
+2020,Honda,CIVIC 2DR,2,4,29,36,32
+2020,Honda,CIVIC 2DR,2,4,25,35,29
 2020,Hyundai,Accent,1.6,4,33,41,36
 2020,Hyundai,Accent,1.6,4,29,39,33
 2020,Hyundai,Veloster,1.6,4,28,34,30
 2020,Hyundai,Veloster,1.6,4,26,33,29
-2020,Hyundai,Veloster,2.0,4,27,34,30
-2020,Hyundai,Veloster,2.0,4,25,33,28
-2020,Hyundai,Veloster N,2.0,4,22,29,25
-2020,Jaguar Land Rover L,XE,2.0,4,25,34,28
-2020,Jaguar Land Rover L,XE 30t,2.0,4,24,32,27
-2020,Jaguar Land Rover L,XE AWD,2.0,4,24,34,28
-2020,Jaguar Land Rover L,XE AWD 30t,2.0,4,22,30,25
+2020,Hyundai,Veloster,2,4,27,34,30
+2020,Hyundai,Veloster,2,4,25,33,28
+2020,Hyundai,Veloster N,2,4,22,29,25
+2020,Jaguar Land Rover L,XE,2,4,25,34,28
+2020,Jaguar Land Rover L,XE 30t,2,4,24,32,27
+2020,Jaguar Land Rover L,XE AWD,2,4,24,34,28
+2020,Jaguar Land Rover L,XE AWD 30t,2,4,22,30,25
 2020,Kia,Rio,1.6,4,33,41,36
-2020,Toyota,GS F,5.0,8,16,24,19
-2020,Toyota,IS 300,2.0,4,21,30,24
+2020,Toyota,GS F,5,8,16,24,19
+2020,Toyota,IS 300,2,4,21,30,24
 2020,Toyota,IS 300 AWD,3.5,6,18,24,21
 2020,Toyota,IS 350,3.5,6,20,28,23
 2020,Toyota,IS 350 AWD,3.5,6,19,26,21
-2020,Toyota,UX 250h,2.0,4,43,41,42
-2020,Toyota,UX 250h AWD,2.0,4,41,38,39
-2020,MAZDA,CX-3 2WD,2.0,4,29,34,31
-2020,MAZDA,CX-3 4WD,2.0,4,27,32,29
+2020,Toyota,UX 250h,2,4,43,41,42
+2020,Toyota,UX 250h AWD,2,4,41,38,39
+2020,MAZDA,CX-3 2WD,2,4,29,34,31
+2020,MAZDA,CX-3 4WD,2,4,27,32,29
 2020,MAZDA,MAZDA2,1.5,4,32,40,35
 2020,MAZDA,MAZDA2,1.5,4,30,39,34
 2020,MAZDA,MAZDA3 4-Door 2WD,2.5,4,26,35,30
 2020,MAZDA,MAZDA3 4-Door 2WD,2.5,4,27,36,30
 2020,MAZDA,MAZDA3 4-Door 4WD,2.5,4,25,33,28
-2020,Mercedes-Benz,AMG C 43 4MATIC,3.0,6,19,27,22
-2020,Mercedes-Benz,AMG C 63,4.0,8,18,27,21
-2020,Mercedes-Benz,AMG C 63 S,4.0,8,18,27,21
-2020,Mercedes-Benz,AMG CLA 35 4MATIC,2.0,4,23,29,25
-2020,Mercedes-Benz,AMG CLA 45 4MATIC,2.0,4,20,29,23
-2020,Mercedes-Benz,AMG CLS 53 4MATIC+,3.0,6,21,27,23
-2020,Mercedes-Benz,AMG GT 53 4MATIC+,3.0,6,19,24,21
-2020,Mercedes-Benz,AMG GT 63 4MATIC+,4.0,8,15,20,17
-2020,Mercedes-Benz,AMG GT 63 S 4MATIC+,4.0,8,15,20,17
-2020,Mercedes-Benz,AMG S 63 4MATIC+ (coupe),4.0,8,17,27,20
-2020,Mercedes-Benz,C 300,2.0,4,24,35,28
-2020,Mercedes-Benz,C 300 4MATIC,2.0,4,23,33,26
-2020,Mercedes-Benz,CLA 250,2.0,4,25,35,28
-2020,Mercedes-Benz,CLA 250 4MATIC,2.0,4,23,33,27
-2020,Mercedes-Benz,CLS 450,3.0,6,24,31,26
-2020,Mercedes-Benz,CLS 450 4MATIC,3.0,6,23,30,26
-2020,Mercedes-Benz,S 560 4MATIC (coupe),4.0,8,17,26,20
+2020,Mercedes-Benz,AMG C 43 4MATIC,3,6,19,27,22
+2020,Mercedes-Benz,AMG C 63,4,8,18,27,21
+2020,Mercedes-Benz,AMG C 63 S,4,8,18,27,21
+2020,Mercedes-Benz,AMG CLA 35 4MATIC,2,4,23,29,25
+2020,Mercedes-Benz,AMG CLA 45 4MATIC,2,4,20,29,23
+2020,Mercedes-Benz,AMG CLS 53 4MATIC+,3,6,21,27,23
+2020,Mercedes-Benz,AMG GT 53 4MATIC+,3,6,19,24,21
+2020,Mercedes-Benz,AMG GT 63 4MATIC+,4,8,15,20,17
+2020,Mercedes-Benz,AMG GT 63 S 4MATIC+,4,8,15,20,17
+2020,Mercedes-Benz,AMG S 63 4MATIC+ (coupe),4,8,17,27,20
+2020,Mercedes-Benz,C 300,2,4,24,35,28
+2020,Mercedes-Benz,C 300 4MATIC,2,4,23,33,26
+2020,Mercedes-Benz,CLA 250,2,4,25,35,28
+2020,Mercedes-Benz,CLA 250 4MATIC,2,4,23,33,27
+2020,Mercedes-Benz,CLS 450,3,6,24,31,26
+2020,Mercedes-Benz,CLS 450 4MATIC,3,6,23,30,26
+2020,Mercedes-Benz,S 560 4MATIC (coupe),4,8,17,26,20
 2020,Mitsubishi Motors Co,MIRAGE,1.2,3,36,43,39
 2020,Mitsubishi Motors Co,MIRAGE,1.2,3,33,41,36
 2020,Mitsubishi Motors Co,MIRAGE G4,1.2,3,35,41,37
@@ -322,72 +322,72 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,Nissan,VERSA,1.6,4,32,40,35
 2020,Nissan,VERSA,1.6,4,27,35,30
 2020,Rolls-Royce,Dawn,6.6,12,12,18,14
-2020,Subaru,WRX,2.0,4,18,24,21
-2020,Subaru,WRX,2.0,4,21,27,23
+2020,Subaru,WRX,2,4,18,24,21
+2020,Subaru,WRX,2,4,21,27,23
 2020,Subaru,WRX,2.5,4,16,22,19
-2020,Toyota,C-HR,2.0,4,27,31,29
+2020,Toyota,C-HR,2,4,27,31,29
 2020,Toyota,COROLLA,1.8,4,30,38,33
 2020,Toyota,COROLLA,1.8,4,29,39,33
-2020,Toyota,COROLLA,2.0,4,31,40,34
-2020,Toyota,COROLLA,2.0,4,29,36,32
-2020,Toyota,COROLLA HATCHBACK,2.0,4,32,41,35
-2020,Toyota,COROLLA HATCHBACK MANUAL,2.0,4,28,37,31
-2020,Toyota,COROLLA HATCHBACK XSE,2.0,4,30,38,33
+2020,Toyota,COROLLA,2,4,31,40,34
+2020,Toyota,COROLLA,2,4,29,36,32
+2020,Toyota,COROLLA HATCHBACK,2,4,32,41,35
+2020,Toyota,COROLLA HATCHBACK MANUAL,2,4,28,37,31
+2020,Toyota,COROLLA HATCHBACK XSE,2,4,30,38,33
 2020,Toyota,COROLLA HYBRID,1.8,4,53,52,52
 2020,Toyota,COROLLA XLE,1.8,4,29,37,32
-2020,Toyota,COROLLA XSE,2.0,4,31,38,34
+2020,Toyota,COROLLA XSE,2,4,31,38,34
 2020,Toyota,YARIS,1.5,4,32,40,35
 2020,Toyota,YARIS,1.5,4,30,39,34
 2020,Volkswagen Group of,Golf,1.4,4,29,35,32
 2020,Volkswagen Group of,Golf,1.4,4,28,36,31
-2020,Volkswagen Group of,GTI,2.0,4,24,32,27
-2020,Volkswagen Group of,GTI,2.0,4,24,32,27
+2020,Volkswagen Group of,GTI,2,4,24,32,27
+2020,Volkswagen Group of,GTI,2,4,24,32,27
 2020,Volkswagen Group of,Jetta,1.4,4,30,40,34
 2020,Volkswagen Group of,Jetta,1.4,4,30,40,34
-2020,Volkswagen Group of,Jetta,2.0,4,25,32,28
-2020,Volkswagen Group of,Jetta,2.0,4,25,33,28
-2020,Volvo,S60 AWD,2.0,4,21,32,25
-2020,Volvo,S60 FWD,2.0,4,23,34,27
+2020,Volkswagen Group of,Jetta,2,4,25,32,28
+2020,Volkswagen Group of,Jetta,2,4,25,33,28
+2020,Volvo,S60 AWD,2,4,21,32,25
+2020,Volvo,S60 FWD,2,4,23,34,27
 2020,Honda,RLX,3.5,6,28,29,28
 2020,Honda,RLX,3.5,6,20,29,23
-2020,FCA US LLC,Giulia,2.0,4,24,33,27
+2020,FCA US LLC,Giulia,2,4,24,33,27
 2020,FCA US LLC,Giulia,2.9,6,17,25,20
-2020,FCA US LLC,Giulia AWD,2.0,4,23,31,26
-2020,Volkswagen Group of,A5 Sportback quattro,2.0,4,24,32,27
-2020,Volkswagen Group of,A6 quattro,2.0,4,24,32,27
-2020,Volkswagen Group of,A6 quattro,3.0,6,22,29,24
-2020,Volkswagen Group of,A7 quattro,3.0,6,22,29,24
-2020,Volkswagen Group of,S5 Sportback,3.0,6,20,27,23
+2020,FCA US LLC,Giulia AWD,2,4,23,31,26
+2020,Volkswagen Group of,A5 Sportback quattro,2,4,24,32,27
+2020,Volkswagen Group of,A6 quattro,2,4,24,32,27
+2020,Volkswagen Group of,A6 quattro,3,6,22,29,24
+2020,Volkswagen Group of,A7 quattro,3,6,22,29,24
+2020,Volkswagen Group of,S5 Sportback,3,6,20,27,23
 2020,Volkswagen Group of,S6,2.9,6,18,28,22
 2020,Volkswagen Group of,S7,2.9,6,18,28,22
-2020,Volkswagen Group of,Flying Spur,6.0,12,12,19,15
+2020,Volkswagen Group of,Flying Spur,6,12,12,19,15
 2020,Volkswagen Group of,Mulsanne,6.8,8,10,16,12
-2020,BMW,530i,2.0,4,25,33,28
-2020,BMW,530i xDrive,2.0,4,24,31,27
-2020,BMW,540i,3.0,6,22,30,25
-2020,BMW,540i xDrive,3.0,6,22,29,25
-2020,BMW,840i Gran Coupe,3.0,6,22,29,24
-2020,BMW,840i xDrive Gran Coupe,3.0,6,20,27,23
+2020,BMW,530i,2,4,25,33,28
+2020,BMW,530i xDrive,2,4,24,31,27
+2020,BMW,540i,3,6,22,30,25
+2020,BMW,540i xDrive,3,6,22,29,25
+2020,BMW,840i Gran Coupe,3,6,22,29,24
+2020,BMW,840i xDrive Gran Coupe,3,6,20,27,23
 2020,BMW,M5,4.4,8,15,21,17
 2020,BMW,M5 Competition,4.4,8,15,21,17
 2020,BMW,M550i xDrive,4.4,8,18,25,20
 2020,BMW,M8 Competition Gran Coupe,4.4,8,15,21,17
 2020,BMW,M8 Gran Coupe,4.4,8,15,21,17
 2020,BMW,M850i xDrive Gran Coupe,4.4,8,17,25,20
-2020,BMW,X2 M35i,2.0,4,23,30,26
-2020,BMW,X2 sDrive28i,2.0,4,24,32,27
-2020,BMW,X2 xDrive28i,2.0,4,24,31,27
-2020,General Motors,REGAL,2.0,4,22,32,26
-2020,General Motors,REGAL AWD,2.0,4,21,29,24
+2020,BMW,X2 M35i,2,4,23,30,26
+2020,BMW,X2 sDrive28i,2,4,24,32,27
+2020,BMW,X2 xDrive28i,2,4,24,31,27
+2020,General Motors,REGAL,2,4,22,32,26
+2020,General Motors,REGAL AWD,2,4,21,29,24
 2020,General Motors,REGAL AWD,3.6,6,19,27,22
-2020,General Motors,CT5,2.0,4,23,32,26
-2020,General Motors,CT5,3.0,6,19,26,21
-2020,General Motors,CT5 AWD,2.0,4,21,31,25
-2020,General Motors,CT5 AWD,3.0,6,18,25,21
-2020,General Motors,CT5 V,3.0,6,18,26,21
-2020,General Motors,CT5 V AWD,3.0,6,17,25,20
+2020,General Motors,CT5,2,4,23,32,26
+2020,General Motors,CT5,3,6,19,26,21
+2020,General Motors,CT5 AWD,2,4,21,31,25
+2020,General Motors,CT5 AWD,3,6,18,25,21
+2020,General Motors,CT5 V,3,6,18,26,21
+2020,General Motors,CT5 V AWD,3,6,17,25,20
 2020,General Motors,MALIBU,1.5,4,29,36,32
-2020,General Motors,MALIBU,2.0,4,22,32,26
+2020,General Motors,MALIBU,2,4,22,32,26
 2020,FCA US LLC,Challenger,3.6,6,19,30,23
 2020,FCA US LLC,Challenger,5.7,8,16,25,19
 2020,FCA US LLC,Challenger,5.7,8,15,23,18
@@ -400,45 +400,45 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,FCA US LLC,Challenger SRT Widebody,6.2,8,13,21,16
 2020,FCA US LLC,Challenger Widebody,6.4,8,15,24,18
 2020,FCA US LLC,Challenger Widebody,6.4,8,14,23,17
-2020,Ford Motor Company,FUSION AWD,2.0,4,20,29,23
+2020,Ford Motor Company,FUSION AWD,2,4,20,29,23
 2020,Ford Motor Company,FUSION FWD,1.5,4,23,34,27
-2020,Ford Motor Company,FUSION FWD,2.0,4,21,31,25
+2020,Ford Motor Company,FUSION FWD,2,4,21,31,25
 2020,Ford Motor Company,FUSION FWD,2.5,4,21,31,24
-2020,Ford Motor Company,FUSION HYBRID FWD,2.0,4,43,41,42
-2020,Ford Motor Company,FUSION HYBRID TAXI,2.0,4,43,40,41
-2020,Honda,ACCORD 2.0T SPORT/TOURING,2.0,4,22,32,26
+2020,Ford Motor Company,FUSION HYBRID FWD,2,4,43,41,42
+2020,Ford Motor Company,FUSION HYBRID TAXI,2,4,43,40,41
+2020,Honda,ACCORD 2.0T SPORT/TOURING,2,4,22,32,26
 2020,Honda,CIVIC 4Dr,1.5,4,32,42,36
 2020,Honda,CIVIC 4Dr,1.5,4,30,38,33
 2020,Honda,CIVIC 4Dr,1.5,4,26,36,30
-2020,Honda,CIVIC 4Dr,2.0,4,30,38,33
-2020,Honda,CIVIC 4Dr,2.0,4,29,37,32
-2020,Honda,CIVIC 4Dr,2.0,4,25,36,29
+2020,Honda,CIVIC 4Dr,2,4,30,38,33
+2020,Honda,CIVIC 4Dr,2,4,29,37,32
+2020,Honda,CIVIC 4Dr,2,4,25,36,29
 2020,Honda,INSIGHT,1.5,4,55,49,52
 2020,Honda,INSIGHT TOURING,1.5,4,51,45,48
 2020,Hyundai,Elantra,1.4,4,33,41,36
 2020,Hyundai,Elantra,1.6,4,26,33,29
-2020,Hyundai,Elantra,2.0,4,30,40,34
-2020,Hyundai,Elantra SE,2.0,4,31,41,35
+2020,Hyundai,Elantra,2,4,30,40,34
+2020,Hyundai,Elantra SE,2,4,31,41,35
 2020,Hyundai,Venue,1.6,4,30,34,32
 2020,Hyundai,Venue,1.6,4,27,35,30
-2020,Nissan,Q50,3.0,6,20,29,23
-2020,Nissan,Q50 AWD,3.0,6,19,27,22
-2020,Nissan,Q50 AWD RED SPORT,3.0,6,19,26,22
-2020,Nissan,Q50 RED SPORT,3.0,6,20,26,22
-2020,Jaguar Land Rover L,XF,2.0,4,25,34,28
-2020,Jaguar Land Rover L,XF 30t,2.0,4,23,31,26
-2020,Jaguar Land Rover L,XF AWD,2.0,4,23,33,27
-2020,Jaguar Land Rover L,XF AWD,3.0,6,20,28,23
-2020,Jaguar Land Rover L,XF AWD 30t,2.0,4,22,31,25
+2020,Nissan,Q50,3,6,20,29,23
+2020,Nissan,Q50 AWD,3,6,19,27,22
+2020,Nissan,Q50 AWD RED SPORT,3,6,19,26,22
+2020,Nissan,Q50 RED SPORT,3,6,20,26,22
+2020,Jaguar Land Rover L,XF,2,4,25,34,28
+2020,Jaguar Land Rover L,XF 30t,2,4,23,31,26
+2020,Jaguar Land Rover L,XF AWD,2,4,23,33,27
+2020,Jaguar Land Rover L,XF AWD,3,6,20,28,23
+2020,Jaguar Land Rover L,XF AWD 30t,2,4,22,31,25
 2020,Kia,Forte,1.6,4,27,35,30
 2020,Kia,Forte,1.6,4,25,32,28
-2020,Kia,Forte,2.0,4,29,40,33
-2020,Kia,Forte,2.0,4,27,37,31
-2020,Kia,Forte FE,2.0,4,31,41,35
-2020,Kia,Optima Hybrid,2.0,4,40,45,42
-2020,Kia,Stinger AWD,2.0,4,21,29,24
+2020,Kia,Forte,2,4,29,40,33
+2020,Kia,Forte,2,4,27,37,31
+2020,Kia,Forte FE,2,4,31,41,35
+2020,Kia,Optima Hybrid,2,4,40,45,42
+2020,Kia,Stinger AWD,2,4,21,29,24
 2020,Kia,Stinger AWD,3.3,6,17,25,20
-2020,Kia,Stinger RWD,2.0,4,22,29,25
+2020,Kia,Stinger RWD,2,4,22,29,25
 2020,Kia,Stinger RWD,3.3,6,17,25,20
 2020,Toyota,ES 300h,2.5,4,43,44,44
 2020,Toyota,ES 350,3.5,6,22,32,26
@@ -450,47 +450,47 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,Toyota,LS 500 AWD,3.4,6,18,27,21
 2020,Toyota,LS 500h,3.5,6,25,33,28
 2020,Toyota,LS 500h AWD,3.5,6,23,31,26
-2020,Toyota,UX 200,2.0,4,29,37,33
-2020,Ford Motor Company,MKZ AWD,2.0,4,20,29,23
-2020,Ford Motor Company,MKZ AWD,3.0,6,17,26,20
-2020,Ford Motor Company,MKZ FWD,2.0,4,20,31,24
-2020,Ford Motor Company,MKZ FWD,3.0,6,18,27,21
-2020,Ford Motor Company,MKZ HYBRID FWD,2.0,4,42,39,41
-2020,Maserati,GHIBLI,3.0,6,17,24,19
-2020,Maserati,GHIBLI S,3.0,6,17,24,19
-2020,Maserati,GHIBLI S Q4,3.0,6,16,24,19
+2020,Toyota,UX 200,2,4,29,37,33
+2020,Ford Motor Company,MKZ AWD,2,4,20,29,23
+2020,Ford Motor Company,MKZ AWD,3,6,17,26,20
+2020,Ford Motor Company,MKZ FWD,2,4,20,31,24
+2020,Ford Motor Company,MKZ FWD,3,6,18,27,21
+2020,Ford Motor Company,MKZ HYBRID FWD,2,4,42,39,41
+2020,Maserati,GHIBLI,3,6,17,24,19
+2020,Maserati,GHIBLI S,3,6,17,24,19
+2020,Maserati,GHIBLI S Q4,3,6,16,24,19
 2020,MAZDA,MAZDA3 5-Door 2WD,2.5,4,26,35,30
 2020,MAZDA,MAZDA3 5-Door 2WD,2.5,4,25,35,29
 2020,MAZDA,MAZDA3 5-Door 4WD,2.5,4,24,32,27
 2020,MAZDA,MAZDA6,2.5,4,26,35,29
 2020,MAZDA,MAZDA6,2.5,4,23,31,26
-2020,Mercedes-Benz,AMG E 53 4MATIC+,3.0,6,21,28,24
-2020,Mercedes-Benz,AMG E 63 S 4MATIC+,4.0,8,15,23,18
-2020,Mercedes-Benz,E 350,2.0,4,23,32,26
-2020,Mercedes-Benz,E 350 4MATIC,2.0,4,22,30,25
-2020,Mercedes-Benz,E 450 4MATIC,3.0,6,20,28,23
+2020,Mercedes-Benz,AMG E 53 4MATIC+,3,6,21,28,24
+2020,Mercedes-Benz,AMG E 63 S 4MATIC+,4,8,15,23,18
+2020,Mercedes-Benz,E 350,2,4,23,32,26
+2020,Mercedes-Benz,E 350 4MATIC,2,4,22,30,25
+2020,Mercedes-Benz,E 450 4MATIC,3,6,20,28,23
 2020,BMW,COOPER COUNTRYMAN,1.5,3,26,33,29
 2020,BMW,COOPER COUNTRYMAN ALL4,1.5,3,24,33,27
-2020,BMW,COOPER S CLUBMAN,2.0,4,26,34,29
-2020,BMW,COOPER S CLUBMAN ALL4,2.0,4,23,32,26
-2020,BMW,COOPER S COUNTRYMAN,2.0,4,24,33,28
-2020,BMW,COOPER S COUNTRYMAN ALL4,2.0,4,23,31,26
-2020,BMW,JCW COUNTRYMAN ALL4,2.0,4,23,30,26
-2020,BMW,JOHN COOPER WORKS CLUBMAN ALL4,2.0,4,23,31,26
+2020,BMW,COOPER S CLUBMAN,2,4,26,34,29
+2020,BMW,COOPER S CLUBMAN ALL4,2,4,23,32,26
+2020,BMW,COOPER S COUNTRYMAN,2,4,24,33,28
+2020,BMW,COOPER S COUNTRYMAN ALL4,2,4,23,31,26
+2020,BMW,JCW COUNTRYMAN ALL4,2,4,23,30,26
+2020,BMW,JOHN COOPER WORKS CLUBMAN ALL4,2,4,23,31,26
 2020,Nissan,ALTIMA,2.5,4,28,39,32
 2020,Nissan,ALTIMA AWD,2.5,4,26,36,30
 2020,Nissan,ALTIMA AWD SR/PLATINUM,2.5,4,25,35,29
-2020,Nissan,ALTIMA SR/PLATINUM,2.0,4,25,34,29
+2020,Nissan,ALTIMA SR/PLATINUM,2,4,25,34,29
 2020,Nissan,ALTIMA SR/PLATINUM,2.5,4,27,37,31
 2020,Nissan,Kicks,1.6,4,31,36,33
 2020,Nissan,MAXIMA,3.5,6,20,30,24
-2020,Nissan,Sentra,2.0,4,29,39,33
-2020,Nissan,Sentra SR,2.0,4,28,37,32
+2020,Nissan,Sentra,2,4,29,39,33
+2020,Nissan,Sentra SR,2,4,28,37,32
 2020,Rolls-Royce,Wraith,6.6,12,12,18,14
-2020,Subaru,IMPREZA 4-Door,2.0,4,28,36,31
-2020,Subaru,IMPREZA 4-Door,2.0,4,23,31,26
-2020,Subaru,IMPREZA 4-Door SPORT,2.0,4,27,36,30
-2020,Subaru,IMPREZA 4-Door SPORT,2.0,4,23,31,26
+2020,Subaru,IMPREZA 4-Door,2,4,28,36,31
+2020,Subaru,IMPREZA 4-Door,2,4,23,31,26
+2020,Subaru,IMPREZA 4-Door SPORT,2,4,27,36,30
+2020,Subaru,IMPREZA 4-Door SPORT,2,4,23,31,26
 2020,Toyota,AVALON,3.5,6,22,31,25
 2020,Toyota,AVALON HYBRID,2.5,4,43,43,43
 2020,Toyota,AVALON HYBRID XLE,2.5,4,43,44,44
@@ -508,18 +508,18 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,Toyota,PRIUS,1.8,4,54,50,52
 2020,Toyota,PRIUS AWD,1.8,4,52,48,50
 2020,Toyota,PRIUS Eco,1.8,4,58,53,56
-2020,Volkswagen Group of,Passat,2.0,4,23,34,27
-2020,Volvo,S90 AWD,2.0,4,21,31,25
-2020,Volkswagen Group of,A8L,3.0,6,17,26,21
-2020,Volkswagen Group of,A8L,4.0,8,15,23,18
-2020,Volkswagen Group of,S8,4.0,8,13,22,16
-2020,BMW,740i,3.0,6,22,29,24
-2020,BMW,740i xDrive,3.0,6,20,28,23
+2020,Volkswagen Group of,Passat,2,4,23,34,27
+2020,Volvo,S90 AWD,2,4,21,31,25
+2020,Volkswagen Group of,A8L,3,6,17,26,21
+2020,Volkswagen Group of,A8L,4,8,15,23,18
+2020,Volkswagen Group of,S8,4,8,13,22,16
+2020,BMW,740i,3,6,22,29,24
+2020,BMW,740i xDrive,3,6,20,28,23
 2020,BMW,750i xDrive,4.4,8,17,25,20
 2020,BMW,Alpina B7,4.4,8,17,25,20
 2020,BMW,M760i xDrive,6.6,12,13,20,16
-2020,BMW,X1 sDrive28i,2.0,4,24,33,27
-2020,BMW,X1 xDrive28i,2.0,4,23,31,26
+2020,BMW,X1 sDrive28i,2,4,24,33,27
+2020,BMW,X1 xDrive28i,2,4,23,31,26
 2020,General Motors,CT6 AWD,3.6,6,18,27,21
 2020,General Motors,CT6 AWD,4.2,8,14,25,17
 2020,General Motors,IMPALA,3.6,6,19,28,22
@@ -535,79 +535,79 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,FCA US LLC,Charger Widebody,6.4,8,15,24,18
 2020,Hyundai,G80 AWD,3.3,6,17,24,20
 2020,Hyundai,G80 AWD,3.8,6,18,24,20
-2020,Hyundai,G80 AWD,5.0,8,15,23,18
+2020,Hyundai,G80 AWD,5,8,15,23,18
 2020,Hyundai,G80 RWD,3.3,6,17,25,20
 2020,Hyundai,G80 RWD,3.8,6,18,26,21
-2020,Hyundai,G80 RWD,5.0,8,16,24,19
+2020,Hyundai,G80 RWD,5,8,16,24,19
 2020,Hyundai,G90 AWD,3.3,6,17,25,20
-2020,Hyundai,G90 AWD,5.0,8,15,23,18
+2020,Hyundai,G90 AWD,5,8,15,23,18
 2020,Hyundai,G90 RWD,3.3,6,17,25,20
-2020,Hyundai,G90 RWD,5.0,8,16,24,19
+2020,Hyundai,G90 RWD,5,8,16,24,19
 2020,Honda,ACCORD,1.5,4,30,38,33
 2020,Honda,ACCORD,1.5,4,29,35,31
 2020,Honda,ACCORD,1.5,4,26,35,30
-2020,Honda,ACCORD,2.0,4,48,47,48
-2020,Honda,ACCORD,2.0,4,23,34,27
-2020,Honda,ACCORD,2.0,4,22,32,26
+2020,Honda,ACCORD,2,4,48,47,48
+2020,Honda,ACCORD,2,4,23,34,27
+2020,Honda,ACCORD,2,4,22,32,26
 2020,Honda,CIVIC 5DR,1.5,4,31,40,34
 2020,Honda,CIVIC 5DR,1.5,4,29,35,32
 2020,Honda,CIVIC 5DR,1.5,4,29,37,32
-2020,Honda,CIVIC 5DR,2.0,4,22,28,25
+2020,Honda,CIVIC 5DR,2,4,22,28,25
 2020,Hyundai,Elantra GT,1.6,4,25,32,28
 2020,Hyundai,Elantra GT,1.6,4,23,30,26
-2020,Hyundai,Elantra GT,2.0,4,25,32,27
+2020,Hyundai,Elantra GT,2,4,25,32,27
 2020,Hyundai,Ioniq,1.6,4,55,54,55
 2020,Hyundai,Ioniq Blue,1.6,4,57,59,58
 2020,Hyundai,Sonata,1.6,4,27,36,31
 2020,Hyundai,Sonata,2.5,4,27,37,31
 2020,Hyundai,Sonata,2.5,4,28,38,32
-2020,Hyundai,Sonata Hybrid,2.0,4,45,51,47
-2020,Hyundai,Sonata Hybrid Blue,2.0,4,50,54,52
+2020,Hyundai,Sonata Hybrid,2,4,45,51,47
+2020,Hyundai,Sonata Hybrid Blue,2,4,50,54,52
 2020,Kia,Cadenza,3.3,6,20,28,23
 2020,Kia,K900,3.3,6,18,25,21
 2020,Kia,Optima,1.6,4,27,37,31
-2020,Kia,Optima,2.0,4,21,30,24
+2020,Kia,Optima,2,4,21,30,24
 2020,Kia,Optima,2.4,4,24,32,27
 2020,Kia,Optima FE,2.4,4,25,35,29
 2020,Ford Motor Company,CONTINENTAL AWD,2.7,6,17,25,20
-2020,Ford Motor Company,CONTINENTAL AWD,3.0,6,16,24,19
+2020,Ford Motor Company,CONTINENTAL AWD,3,6,16,24,19
 2020,Ford Motor Company,CONTINENTAL AWD,3.7,6,16,24,19
-2020,Ford Motor Company,CONTINENTAL COACH,3.0,6,16,24,19
+2020,Ford Motor Company,CONTINENTAL COACH,3,6,16,24,19
 2020,Ford Motor Company,CONTINENTAL FWD,2.7,6,18,27,21
 2020,Ford Motor Company,CONTINENTAL FWD,3.7,6,17,26,20
 2020,Maserati,QUATTROPORTE GTS,3.8,8,15,22,17
-2020,Maserati,QUATTROPORTE S,3.0,6,17,24,19
-2020,Maserati,QUATTROPORTE S Q4,3.0,6,16,23,18
-2020,Mercedes-Benz,AMG S 63 4MATIC+,4.0,8,17,26,20
-2020,Mercedes-Benz,AMG S 65,6.0,12,13,22,16
-2020,Mercedes-Benz,Maybach S 650,6.0,12,13,21,16
-2020,Mercedes-Benz,S 450,3.0,6,19,28,22
-2020,Mercedes-Benz,S 450 4MATIC,3.0,6,18,28,22
-2020,Mercedes-Benz,S 560,4.0,8,17,27,21
-2020,Mercedes-Benz,S 560 4MATIC,4.0,8,17,27,21
-2020,Mercedes-Benz,S 560 4MATIC Maybach,4.0,8,16,25,19
-2020,Porsche,Panamera,3.0,6,19,27,22
-2020,Porsche,Panamera 4,3.0,6,19,26,22
-2020,Porsche,Panamera 4 Executive,3.0,6,19,26,22
-2020,Porsche,Panamera 4 ST,3.0,6,19,26,22
+2020,Maserati,QUATTROPORTE S,3,6,17,24,19
+2020,Maserati,QUATTROPORTE S Q4,3,6,16,23,18
+2020,Mercedes-Benz,AMG S 63 4MATIC+,4,8,17,26,20
+2020,Mercedes-Benz,AMG S 65,6,12,13,22,16
+2020,Mercedes-Benz,Maybach S 650,6,12,13,21,16
+2020,Mercedes-Benz,S 450,3,6,19,28,22
+2020,Mercedes-Benz,S 450 4MATIC,3,6,18,28,22
+2020,Mercedes-Benz,S 560,4,8,17,27,21
+2020,Mercedes-Benz,S 560 4MATIC,4,8,17,27,21
+2020,Mercedes-Benz,S 560 4MATIC Maybach,4,8,16,25,19
+2020,Porsche,Panamera,3,6,19,27,22
+2020,Porsche,Panamera 4,3,6,19,26,22
+2020,Porsche,Panamera 4 Executive,3,6,19,26,22
+2020,Porsche,Panamera 4 ST,3,6,19,26,22
 2020,Porsche,Panamera 4S,2.9,6,18,26,21
 2020,Porsche,Panamera 4S Executive,2.9,6,18,26,21
 2020,Porsche,Panamera 4S ST,2.9,6,18,24,20
-2020,Porsche,Panamera GTS,4.0,8,16,23,19
-2020,Porsche,Panamera GTS ST,4.0,8,15,22,18
-2020,Porsche,Panamera Turbo,4.0,8,18,25,21
-2020,Porsche,Panamera Turbo Exec,4.0,8,18,25,21
-2020,Porsche,Panamera Turbo ST,4.0,8,18,23,20
+2020,Porsche,Panamera GTS,4,8,16,23,19
+2020,Porsche,Panamera GTS ST,4,8,15,22,18
+2020,Porsche,Panamera Turbo,4,8,18,25,21
+2020,Porsche,Panamera Turbo Exec,4,8,18,25,21
+2020,Porsche,Panamera Turbo ST,4,8,18,23,20
 2020,Rolls-Royce,Ghost,6.6,12,12,18,14
 2020,Rolls-Royce,Ghost EWB,6.6,12,12,18,14
 2020,Rolls-Royce,Phantom,6.7,12,12,20,14
 2020,Rolls-Royce,Phantom EWB,6.7,12,12,20,14
 2020,Subaru,LEGACY,2.4,4,24,32,27
 2020,Subaru,LEGACY,2.5,4,27,35,30
-2020,Volkswagen Group of,Arteon,2.0,4,22,29,25
-2020,Volkswagen Group of,Arteon 4Motion,2.0,4,20,29,23
-2020,Volkswagen Group of,A4 allroad quattro,2.0,4,23,31,26
-2020,General Motors,REGAL TOUR X AWD,2.0,4,21,29,24
+2020,Volkswagen Group of,Arteon,2,4,22,29,25
+2020,Volkswagen Group of,Arteon 4Motion,2,4,20,29,23
+2020,Volkswagen Group of,A4 allroad quattro,2,4,23,31,26
+2020,General Motors,REGAL TOUR X AWD,2,4,21,29,24
 2020,General Motors,SONIC 5,1.4,4,26,34,29
 2020,FCA US LLC,500L,1.4,4,22,30,25
 2020,Honda,FIT,1.5,4,33,40,36
@@ -621,29 +621,29 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,Kia,Niro FE,1.6,4,52,49,50
 2020,Kia,Niro Touring,1.6,4,46,40,43
 2020,Kia,Soul,1.6,4,27,32,29
-2020,Kia,Soul,2.0,4,27,33,30
-2020,Kia,Soul,2.0,4,25,31,27
-2020,Kia,Soul Eco dynamics,2.0,4,29,35,31
-2020,Nissan,Rogue Sport,2.0,4,25,32,28
-2020,Nissan,Rogue Sport AWD,2.0,4,24,30,27
-2020,Subaru,IMPREZA 5-Door,2.0,4,28,36,31
-2020,Subaru,IMPREZA 5-Door,2.0,4,24,31,26
-2020,Subaru,IMPREZA 5-Door SPORT,2.0,4,27,35,30
-2020,Subaru,IMPREZA 5-Door SPORT,2.0,4,22,30,25
-2020,Volvo,V60 CC AWD,2.0,4,22,31,25
-2020,Volvo,V60 FWD,2.0,4,23,34,27
-2020,Volkswagen Group of,A6 Allroad,3.0,6,20,26,22
-2020,Jaguar Land Rover L,XF Sportbrake AWD,2.0,4,21,28,24
-2020,Jaguar Land Rover L,XF Sportbrake AWD,3.0,6,18,25,21
-2020,Mercedes-Benz,AMG E 63 S 4MATIC+ (SW),4.0,8,16,23,19
-2020,Mercedes-Benz,E 450 4MATIC (station wagon),3.0,6,19,26,22
+2020,Kia,Soul,2,4,27,33,30
+2020,Kia,Soul,2,4,25,31,27
+2020,Kia,Soul Eco dynamics,2,4,29,35,31
+2020,Nissan,Rogue Sport,2,4,25,32,28
+2020,Nissan,Rogue Sport AWD,2,4,24,30,27
+2020,Subaru,IMPREZA 5-Door,2,4,28,36,31
+2020,Subaru,IMPREZA 5-Door,2,4,24,31,26
+2020,Subaru,IMPREZA 5-Door SPORT,2,4,27,35,30
+2020,Subaru,IMPREZA 5-Door SPORT,2,4,22,30,25
+2020,Volvo,V60 CC AWD,2,4,22,31,25
+2020,Volvo,V60 FWD,2,4,23,34,27
+2020,Volkswagen Group of,A6 Allroad,3,6,20,26,22
+2020,Jaguar Land Rover L,XF Sportbrake AWD,2,4,21,28,24
+2020,Jaguar Land Rover L,XF Sportbrake AWD,3,6,18,25,21
+2020,Mercedes-Benz,AMG E 63 S 4MATIC+ (SW),4,8,16,23,19
+2020,Mercedes-Benz,E 450 4MATIC (station wagon),3,6,19,26,22
 2020,Nissan,MURANO AWD,3.5,6,20,28,23
 2020,Nissan,MURANO FWD,3.5,6,20,28,23
 2020,Rolls-Royce,Cullinan,6.7,12,12,20,14
 2020,Rolls-Royce,Cullinan Black Badge,6.7,12,12,20,14
-2020,Volvo,V90 AWD,2.0,4,21,31,25
-2020,Volvo,V90 CC AWD,2.0,4,20,30,24
-2020,Volvo,V90 FWD,2.0,4,22,33,26
+2020,Volvo,V90 AWD,2,4,21,31,25
+2020,Volvo,V90 CC AWD,2,4,20,30,24
+2020,Volvo,V90 FWD,2,4,22,33,26
 2020,General Motors,COLORADO 2WD,2.5,4,20,26,22
 2020,General Motors,COLORADO 2WD,2.8,4,20,30,23
 2020,General Motors,COLORADO 2WD,3.6,6,18,25,20
@@ -667,25 +667,25 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,Toyota,TACOMA 4WD D-CAB MT TRD-ORP/PRO,3.5,6,17,20,18
 2020,General Motors,SILVERADO 2WD,2.7,4,19,22,20
 2020,General Motors,SILVERADO 2WD,2.7,4,20,23,21
-2020,General Motors,SILVERADO 2WD,3.0,6,23,33,27
+2020,General Motors,SILVERADO 2WD,3,6,23,33,27
 2020,General Motors,SILVERADO 2WD,4.3,6,16,21,17
 2020,General Motors,SILVERADO 2WD,5.3,8,15,21,17
 2020,General Motors,SILVERADO 2WD,5.3,8,15,19,16
 2020,General Motors,SILVERADO 2WD,5.3,8,17,23,19
 2020,General Motors,SILVERADO 2WD,5.3,8,17,24,20
-2020,Ford Motor Company,F150 2WD BASE PAYLOAD LT TIRE,3.0,6,21,28,24
-2020,Ford Motor Company,F150 2WD FFV BASE PAYLOAD LT,5.0,8,16,21,18
-2020,Ford Motor Company,F150 5.0L 2WD FFV GVWR>7599 LBS,5.0,8,15,20,17
+2020,Ford Motor Company,F150 2WD BASE PAYLOAD LT TIRE,3,6,21,28,24
+2020,Ford Motor Company,F150 2WD FFV BASE PAYLOAD LT,5,8,16,21,18
+2020,Ford Motor Company,F150 5.0L 2WD FFV GVWR>7599 LBS,5,8,15,20,17
 2020,Ford Motor Company,F150 PICKUP 2WD,2.7,6,20,26,22
-2020,Ford Motor Company,F150 PICKUP 2WD,3.0,6,21,29,24
+2020,Ford Motor Company,F150 PICKUP 2WD,3,6,21,29,24
 2020,Ford Motor Company,F150 PICKUP 2WD,3.5,6,17,23,19
 2020,Ford Motor Company,F150 PICKUP 2WD FFV,3.3,6,19,25,22
-2020,Ford Motor Company,F150 PICKUP 2WD FFV,5.0,8,17,23,19
+2020,Ford Motor Company,F150 PICKUP 2WD FFV,5,8,17,23,19
 2020,Ford Motor Company,F150 PICKUP 2WD LIMITED,3.5,6,17,22,19
 2020,Ford Motor Company,RANGER 2WD,2.3,4,21,26,23
 2020,General Motors,SIERRA 2WD,2.7,4,19,22,20
 2020,General Motors,SIERRA 2WD,2.7,4,20,23,21
-2020,General Motors,SIERRA 2WD,3.0,6,23,30,26
+2020,General Motors,SIERRA 2WD,3,6,23,30,26
 2020,General Motors,SIERRA 2WD,4.3,6,16,21,17
 2020,General Motors,SIERRA 2WD,5.3,8,15,21,17
 2020,General Motors,SIERRA 2WD,5.3,8,15,19,16
@@ -693,18 +693,18 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,General Motors,SIERRA 2WD,5.3,8,17,24,20
 2020,Nissan,FRONTIER 2WD,3.8,6,18,24,20
 2020,Nissan,TITAN 2WD,5.6,8,16,22,18
-2020,FCA US LLC,1500 4X2,3.0,6,22,32,26
+2020,FCA US LLC,1500 4X2,3,6,22,32,26
 2020,FCA US LLC,1500 4X2,3.6,6,20,25,22
 2020,FCA US LLC,1500 4X2,5.7,8,17,23,19
 2020,FCA US LLC,1500 4X2,5.7,8,15,22,17
 2020,FCA US LLC,1500 Classic 4X2,3.6,6,17,25,20
 2020,FCA US LLC,1500 Classic 4X2,5.7,8,15,22,17
 2020,FCA US LLC,1500 HFE 4X2,3.6,6,20,26,23
-2020,Roush,F150 Pickup 2WD,5.0,8,11,15,13
+2020,Roush,F150 Pickup 2WD,5,8,11,15,13
 2020,Toyota,TUNDRA 2WD,5.7,8,13,18,15
 2020,General Motors,SILVERADO 4WD,2.7,4,19,22,20
 2020,General Motors,SILVERADO 4WD,2.7,4,19,22,20
-2020,General Motors,SILVERADO 4WD,3.0,6,23,29,25
+2020,General Motors,SILVERADO 4WD,3,6,23,29,25
 2020,General Motors,SILVERADO 4WD,4.3,6,15,20,17
 2020,General Motors,SILVERADO 4WD,5.3,8,16,22,19
 2020,General Motors,SILVERADO 4WD,5.3,8,15,20,17
@@ -718,24 +718,24 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,General Motors,SILVERADO 4WD TRAILBOSS,6.2,8,15,19,17
 2020,General Motors,SILVERADO 4WD TRAILBOSS,6.2,8,14,18,15
 2020,Ford Motor Company,F150 PICKUP 4WD,2.7,6,18,23,20
-2020,Ford Motor Company,F150 PICKUP 4WD,3.0,6,20,25,22
+2020,Ford Motor Company,F150 PICKUP 4WD,3,6,20,25,22
 2020,Ford Motor Company,F150 PICKUP 4WD,3.5,6,16,22,18
 2020,Ford Motor Company,F150 PICKUP 4WD FFV,3.3,6,18,23,20
-2020,Ford Motor Company,F150 PICKUP 4WD FFV,5.0,8,15,21,18
+2020,Ford Motor Company,F150 PICKUP 4WD FFV,5,8,15,21,18
 2020,Ford Motor Company,F150 PICKUP 4WD LIMITED,3.5,6,17,21,19
-2020,Ford Motor Company,F150 PICKUP 4WD XL/XLT,3.0,6,21,28,24
+2020,Ford Motor Company,F150 PICKUP 4WD XL/XLT,3,6,21,28,24
 2020,Ford Motor Company,F150 RAPTOR 4WD,3.5,6,15,18,16
 2020,Ford Motor Company,RANGER 4WD,2.3,4,20,24,22
 2020,General Motors,SIERRA 4WD,2.7,4,19,22,20
 2020,General Motors,SIERRA 4WD,2.7,4,19,22,20
-2020,General Motors,SIERRA 4WD,3.0,6,22,26,24
+2020,General Motors,SIERRA 4WD,3,6,22,26,24
 2020,General Motors,SIERRA 4WD,4.3,6,15,20,17
 2020,General Motors,SIERRA 4WD,5.3,8,16,22,19
 2020,General Motors,SIERRA 4WD,5.3,8,15,20,17
 2020,General Motors,SIERRA 4WD,5.3,8,14,19,16
 2020,General Motors,SIERRA 4WD,5.3,8,16,22,18
 2020,General Motors,SIERRA 4WD,6.2,8,15,20,17
-2020,General Motors,SIERRA 4WD AT4,3.0,6,22,26,24
+2020,General Motors,SIERRA 4WD AT4,3,6,22,26,24
 2020,General Motors,SIERRA 4WD AT4,5.3,8,16,21,18
 2020,General Motors,SIERRA 4WD AT4,5.3,8,14,18,16
 2020,General Motors,SIERRA 4WD AT4,5.3,8,16,21,18
@@ -746,32 +746,30 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,Nissan,FRONTIER 4WD,3.8,6,17,23,19
 2020,Nissan,TITAN 4WD,5.6,8,15,21,18
 2020,Nissan,TITAN 4WD PRO-4X,5.6,8,15,21,17
-2020,FCA US LLC,1500 4X4,3.0,6,21,29,24
+2020,FCA US LLC,1500 4X4,3,6,21,29,24
 2020,FCA US LLC,1500 4X4,3.6,6,19,24,21
 2020,FCA US LLC,1500 4X4,5.7,8,17,22,19
 2020,FCA US LLC,1500 4X4,5.7,8,15,21,17
 2020,FCA US LLC,1500 Classic 4X4,3.6,6,16,23,19
 2020,FCA US LLC,1500 Classic 4X4,5.7,8,15,21,17
-2020,Roush,F150 Pickup 4WD,5.0,8,11,15,13
+2020,Roush,F150 Pickup 4WD,5,8,11,15,13
 2020,Toyota,TUNDRA 4WD,5.7,8,13,17,14
 2020,Ford Motor Company,TRANSIT T150 WAGON 2WD FFV,3.5,6,15,19,17
 2020,Ford Motor Company,TRANSIT T150 WAGON 4WD FFV,3.5,6,14,19,16
 2020,Ford Motor Company,RANGER 2WD INCOMPLETE,2.3,4,19,18,18
 2020,Ford Motor Company,TRANSIT CONNECT USPS,2.5,4,20,27,22
-2020,Ford Motor Company,Transit Connect Van 2WD,2.0,4,24,27,25
+2020,Ford Motor Company,Transit Connect Van 2WD,2,4,24,27,25
 2020,Ford Motor Company,Transit Connect Van 2WD,2.5,4,20,27,22
-2020,Ford Motor Company,TRANSIT CONNECT VAN FFV,2.0,4,24,27,25
-2020,Ford Motor Company,TRANSIT CONNECT WAGON LWB FFV,2.0,4,24,29,26
-2020,Ford Motor Company,Transit Connect Wagon LWB FWD,2.0,4,24,29,26
+2020,Ford Motor Company,TRANSIT CONNECT VAN FFV,2,4,24,27,25
+2020,Ford Motor Company,TRANSIT CONNECT WAGON LWB FFV,2,4,24,29,26
+2020,Ford Motor Company,Transit Connect Wagon LWB FWD,2,4,24,29,26
 2020,Ford Motor Company,Transit Connect Wagon LWB FWD,2.5,4,20,26,22
-2020,Mercedes-Benz,GLB 250,2.0,4,23,30,26
-2020,Mercedes-Benz,Metris (Cargo Van),2.0,4,21,24,22
-2020,Mercedes-Benz,Metris (Cargo Van),2.0,4,20,24,22
-2020,Mercedes-Benz,"Metris (Cargo Van, LWB)",2.0,4,21,24,22
-2020,Mercedes-Benz,"Metris (Cargo Van, LWB)",2.0,4,20,24,22
-2020,Mercedes-Benz,Metris (Passenger Van),2.0,4,20,24,21
-2020,Mercedes-Benz,Metris (Passenger Van),2.0,4,19,23,21
-2020,Nissan,NV200 Cargo Van,2.0,4,24,26,25
+2020,Mercedes-Benz,GLB 250,2,4,23,30,26
+2020,Mercedes-Benz,Metris (Cargo Van),2,4,21,24,22
+2020,Mercedes-Benz,Metris (Cargo Van),2,4,20,24,22
+2020,Mercedes-Benz,Metris (Passenger Van),2,4,20,24,21
+2020,Mercedes-Benz,Metris (Passenger Van),2,4,19,23,21
+2020,Nissan,NV200 Cargo Van,2,4,24,26,25
 2020,FCA US LLC,Promaster City,2.4,4,21,28,24
 2020,General Motors,SILVERADO 2WD CAB CHASSIS,4.3,6,15,19,17
 2020,General Motors,SILVERADO 2WD CAB CHASSIS,5.3,8,14,18,15
@@ -790,44 +788,44 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,FCA US LLC,Pacifica AWD,3.6,6,17,25,20
 2020,Toyota,SIENNA AWD,3.5,6,18,24,20
 2020,Honda,MDX FWD,3.5,6,20,27,23
-2020,Honda,RDX FWD,2.0,4,22,28,24
-2020,Honda,RDX FWD A-SPEC,2.0,4,22,27,24
-2020,FCA US LLC,Stelvio,2.0,4,22,29,25
-2020,BMW,X3 sDrive30i,2.0,4,25,29,27
+2020,Honda,RDX FWD,2,4,22,28,24
+2020,Honda,RDX FWD A-SPEC,2,4,22,27,24
+2020,FCA US LLC,Stelvio,2,4,22,29,25
+2020,BMW,X3 sDrive30i,2,4,25,29,27
 2020,General Motors,ENCORE FWD,1.4,4,25,30,27
 2020,General Motors,ENCORE GX FWD,1.2,3,26,30,28
 2020,General Motors,ENCORE GX FWD,1.3,3,30,32,31
 2020,General Motors,ENVISION FWD,2.5,4,22,29,25
-2020,General Motors,XT4 FWD,2.0,4,24,30,26
-2020,General Motors,XT5 FWD,2.0,4,21,28,24
+2020,General Motors,XT4 FWD,2,4,24,30,26
+2020,General Motors,XT5 FWD,2,4,21,28,24
 2020,General Motors,XT5 FWD,3.6,6,18,26,21
 2020,General Motors,XT6 FWD,3.6,6,18,25,20
-2020,General Motors,BLAZER FWD,2.0,4,21,28,24
+2020,General Motors,BLAZER FWD,2,4,21,28,24
 2020,General Motors,BLAZER FWD,2.5,4,21,27,23
 2020,General Motors,BLAZER FWD,3.6,6,19,26,21
 2020,General Motors,EQUINOX FWD,1.5,4,26,31,28
-2020,General Motors,EQUINOX FWD,2.0,4,22,29,25
+2020,General Motors,EQUINOX FWD,2,4,22,29,25
 2020,General Motors,TRAX FWD,1.4,4,26,31,28
 2020,FCA US LLC,Journey,2.4,4,19,25,21
-2020,Ford Motor Company,ECOSPORT FWD,1.0,3,27,29,28
-2020,Ford Motor Company,EDGE FWD,2.0,4,21,29,24
+2020,Ford Motor Company,ECOSPORT FWD,1,3,27,29,28
+2020,Ford Motor Company,EDGE FWD,2,4,21,29,24
 2020,Ford Motor Company,ESCAPE FWD,1.5,3,27,33,30
 2020,Ford Motor Company,ESCAPE FWD HEV,2.5,4,44,37,41
 2020,General Motors,TERRAIN FWD,1.5,4,26,30,27
-2020,General Motors,TERRAIN FWD,2.0,4,22,28,24
+2020,General Motors,TERRAIN FWD,2,4,22,28,24
 2020,Honda,CR-V FWD,1.5,4,28,34,30
 2020,Honda,PASSPORT FWD,3.5,6,20,25,22
 2020,Honda,PILOT FWD,3.5,6,19,27,22
 2020,Honda,PILOT FWD,3.5,6,20,27,23
 2020,Hyundai,Kona FWD,1.6,4,28,32,30
-2020,Hyundai,Kona FWD,2.0,4,27,33,30
-2020,Hyundai,Santa Fe FWD,2.0,4,20,27,23
+2020,Hyundai,Kona FWD,2,4,27,33,30
+2020,Hyundai,Santa Fe FWD,2,4,20,27,23
 2020,Hyundai,Santa Fe FWD,2.4,4,22,29,25
-2020,Hyundai,Tucson FWD,2.0,4,23,28,25
+2020,Hyundai,Tucson FWD,2,4,23,28,25
 2020,Hyundai,Tucson FWD,2.4,4,22,28,25
-2020,Nissan,QX50,2.0,4,23,29,26
+2020,Nissan,QX50,2,4,23,29,26
 2020,Nissan,QX60 FWD,3.5,6,20,27,22
-2020,FCA US LLC,Cherokee FWD,2.0,4,23,31,26
+2020,FCA US LLC,Cherokee FWD,2,4,23,31,26
 2020,FCA US LLC,Cherokee FWD,2.4,4,22,31,25
 2020,FCA US LLC,Cherokee FWD,3.2,6,20,29,23
 2020,FCA US LLC,Compass 4X2,2.4,4,22,31,25
@@ -836,24 +834,24 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,FCA US LLC,Renegade 4x2,2.4,4,22,30,25
 2020,Kia,Sorento FWD,2.4,4,22,29,25
 2020,Kia,Sorento FWD,3.3,6,19,26,22
-2020,Kia,Sportage FWD,2.0,4,20,28,23
+2020,Kia,Sportage FWD,2,4,20,28,23
 2020,Kia,Sportage FWD,2.4,4,23,30,26
 2020,Kia,Telluride FWD,3.8,6,20,26,23
-2020,Toyota,NX 300,2.0,4,22,28,25
+2020,Toyota,NX 300,2,4,22,28,25
 2020,Toyota,RX 350,3.5,6,20,27,23
 2020,Toyota,RX 350L,3.5,6,19,26,22
-2020,Ford Motor Company,CORSAIR FWD,2.0,4,22,29,25
-2020,Ford Motor Company,NAUTILUS FWD,2.0,4,21,26,23
+2020,Ford Motor Company,CORSAIR FWD,2,4,22,29,25
+2020,Ford Motor Company,NAUTILUS FWD,2,4,21,26,23
 2020,MAZDA,CX-30 2WD,2.5,4,25,33,28
 2020,MAZDA,CX-30 2WD,2.5,4,25,33,28
 2020,MAZDA,CX-5 2WD,2.5,4,25,31,28
 2020,MAZDA,CX-9 2WD,2.5,4,22,28,24
-2020,Mercedes-Benz,GLA 250,2.0,4,24,34,28
-2020,Mercedes-Benz,GLC 300,2.0,4,22,29,24
+2020,Mercedes-Benz,GLA 250,2,4,24,34,28
+2020,Mercedes-Benz,GLC 300,2,4,22,29,24
 2020,Mitsubishi Motors Co,ECLIPSE CROSS 2WD,1.5,4,25,28,26
 2020,Mitsubishi Motors Co,ECLIPSE CROSS ES 2WD,1.5,4,26,29,27
 2020,Mitsubishi Motors Co,OUTLANDER 2WD,2.4,4,25,30,27
-2020,Mitsubishi Motors Co,OUTLANDER SPORT 2WD,2.0,4,24,30,27
+2020,Mitsubishi Motors Co,OUTLANDER SPORT 2WD,2,4,24,30,27
 2020,Mitsubishi Motors Co,OUTLANDER SPORT 2WD,2.4,4,23,29,25
 2020,Nissan,PATHFINDER 2WD,3.5,6,20,27,23
 2020,Nissan,ROGUE FWD,2.5,4,26,33,29
@@ -862,149 +860,149 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,Toyota,HIGHLANDER HYBRID,2.5,4,36,35,36
 2020,Toyota,RAV4,2.5,4,27,35,30
 2020,Toyota,RAV4,2.5,4,28,35,30
-2020,Volkswagen Group of,Atlas,2.0,4,20,24,22
+2020,Volkswagen Group of,Atlas,2,4,20,24,22
 2020,Volkswagen Group of,Atlas,3.6,6,17,23,19
-2020,Volkswagen Group of,Atlas Cross Sport,2.0,4,21,24,22
+2020,Volkswagen Group of,Atlas Cross Sport,2,4,21,24,22
 2020,Volkswagen Group of,Atlas Cross Sport,3.6,6,17,23,19
-2020,Volkswagen Group of,Tiguan,2.0,4,22,29,25
-2020,Volvo,XC40 FWD,2.0,4,23,33,27
-2020,Volvo,XC60 FWD,2.0,4,22,29,24
-2020,Honda,MDX AWD,3.0,6,26,27,27
+2020,Volkswagen Group of,Tiguan,2,4,22,29,25
+2020,Volvo,XC40 FWD,2,4,23,33,27
+2020,Volvo,XC60 FWD,2,4,22,29,24
+2020,Honda,MDX AWD,3,6,26,27,27
 2020,Honda,MDX AWD,3.5,6,19,26,22
 2020,Honda,MDX AWD A-spec,3.5,6,19,25,21
-2020,Honda,RDX AWD,2.0,4,21,27,23
-2020,Honda,RDX AWD A-SPEC,2.0,4,21,26,23
-2020,FCA US LLC,Stelvio AWD,2.0,4,22,28,24
+2020,Honda,RDX AWD,2,4,21,27,23
+2020,Honda,RDX AWD A-SPEC,2,4,21,26,23
+2020,FCA US LLC,Stelvio AWD,2,4,22,28,24
 2020,FCA US LLC,Stelvio AWD,2.9,6,17,23,19
-2020,Volkswagen Group of,Q3 quattro,2.0,4,19,27,22
-2020,Volkswagen Group of,Q5,2.0,4,22,28,24
-2020,Volkswagen Group of,SQ5,3.0,6,18,23,20
-2020,BMW,X3 M,3.0,6,14,19,16
-2020,BMW,X3 M Competition,3.0,6,14,19,16
-2020,BMW,X3 M40i,3.0,6,21,27,23
-2020,BMW,X3 xDrive30i,2.0,4,24,29,26
-2020,BMW,X4 M,3.0,6,14,19,16
-2020,BMW,X4 M Competition,3.0,6,14,19,16
-2020,BMW,X4 M40i,3.0,6,21,27,23
-2020,BMW,X4 xDrive30i,2.0,4,23,28,25
+2020,Volkswagen Group of,Q3 quattro,2,4,19,27,22
+2020,Volkswagen Group of,Q5,2,4,22,28,24
+2020,Volkswagen Group of,SQ5,3,6,18,23,20
+2020,BMW,X3 M,3,6,14,19,16
+2020,BMW,X3 M Competition,3,6,14,19,16
+2020,BMW,X3 M40i,3,6,21,27,23
+2020,BMW,X3 xDrive30i,2,4,24,29,26
+2020,BMW,X4 M,3,6,14,19,16
+2020,BMW,X4 M Competition,3,6,14,19,16
+2020,BMW,X4 M40i,3,6,21,27,23
+2020,BMW,X4 xDrive30i,2,4,23,28,25
 2020,General Motors,ENCORE AWD,1.4,4,24,29,26
 2020,General Motors,ENCORE GX AWD,1.3,3,26,29,28
-2020,General Motors,ENVISION AWD,2.0,4,20,25,22
+2020,General Motors,ENVISION AWD,2,4,20,25,22
 2020,General Motors,ENVISION AWD,2.5,4,21,27,24
-2020,General Motors,XT4 AWD,2.0,4,22,29,24
-2020,General Motors,XT5 AWD,2.0,4,21,26,23
+2020,General Motors,XT4 AWD,2,4,22,29,24
+2020,General Motors,XT5 AWD,2,4,21,26,23
 2020,General Motors,XT5 AWD,3.6,6,18,25,20
 2020,General Motors,XT6 AWD,3.6,6,17,24,20
-2020,General Motors,BLAZER AWD,2.0,4,21,27,23
+2020,General Motors,BLAZER AWD,2,4,21,27,23
 2020,General Motors,BLAZER AWD,3.6,6,18,25,21
 2020,General Motors,EQUINOX AWD,1.5,4,25,30,27
-2020,General Motors,EQUINOX AWD,2.0,4,22,28,24
+2020,General Motors,EQUINOX AWD,2,4,22,28,24
 2020,General Motors,TRAX AWD,1.4,4,24,29,26
 2020,FCA US LLC,500X AWD,1.3,4,24,30,26
-2020,Ford Motor Company,ECOSPORT AWD,2.0,4,23,29,25
-2020,Ford Motor Company,EDGE AWD,2.0,4,21,28,23
-2020,Ford Motor Company,EDGE AWD,2.0,4,21,28,23
+2020,Ford Motor Company,ECOSPORT AWD,2,4,23,29,25
+2020,Ford Motor Company,EDGE AWD,2,4,21,28,23
+2020,Ford Motor Company,EDGE AWD,2,4,21,28,23
 2020,Ford Motor Company,EDGE AWD,2.7,6,19,26,21
 2020,Ford Motor Company,ESCAPE AWD,1.5,3,26,31,28
-2020,Ford Motor Company,ESCAPE AWD,2.0,4,23,31,26
+2020,Ford Motor Company,ESCAPE AWD,2,4,23,31,26
 2020,Ford Motor Company,ESCAPE AWD HEV,2.5,4,43,37,40
 2020,General Motors,TERRAIN AWD,1.5,4,25,28,26
-2020,General Motors,TERRAIN AWD,2.0,4,21,26,23
+2020,General Motors,TERRAIN AWD,2,4,21,26,23
 2020,Honda,CR-V AWD,1.5,4,27,32,29
-2020,Honda,CR-V AWD,2.0,4,40,35,38
+2020,Honda,CR-V AWD,2,4,40,35,38
 2020,Honda,PASSPORT AWD,3.5,6,19,24,21
 2020,Honda,PILOT AWD,3.5,6,18,26,21
 2020,Honda,PILOT AWD,3.5,6,19,26,22
 2020,Hyundai,Kona AWD,1.6,4,26,29,27
-2020,Hyundai,Kona AWD,2.0,4,26,30,28
-2020,Hyundai,Santa Fe AWD,2.0,4,20,26,22
+2020,Hyundai,Kona AWD,2,4,26,30,28
+2020,Hyundai,Santa Fe AWD,2,4,20,26,22
 2020,Hyundai,Santa Fe AWD,2.4,4,21,27,24
-2020,Hyundai,Tucson AWD,2.0,4,22,25,23
+2020,Hyundai,Tucson AWD,2,4,22,25,23
 2020,Hyundai,Tucson AWD,2.4,4,21,26,23
-2020,Nissan,QX50 AWD,2.0,4,22,28,25
+2020,Nissan,QX50 AWD,2,4,22,28,25
 2020,Nissan,QX60 AWD,3.5,6,19,26,22
-2020,Jaguar Land Rover L,E-PACE,2.0,4,21,28,24
-2020,Jaguar Land Rover L,E-PACE P300,2.0,4,21,27,23
-2020,Jaguar Land Rover L,F-PACE,2.0,4,22,27,24
-2020,Jaguar Land Rover L,F-PACE,3.0,6,18,23,20
-2020,Jaguar Land Rover L,F-PACE,5.0,8,16,21,18
-2020,Jaguar Land Rover L,F-PACE 30t,2.0,4,22,27,24
-2020,FCA US LLC,Cherokee 4X4,2.0,4,21,29,24
+2020,Jaguar Land Rover L,E-PACE,2,4,21,28,24
+2020,Jaguar Land Rover L,E-PACE P300,2,4,21,27,23
+2020,Jaguar Land Rover L,F-PACE,2,4,22,27,24
+2020,Jaguar Land Rover L,F-PACE,3,6,18,23,20
+2020,Jaguar Land Rover L,F-PACE,5,8,16,21,18
+2020,Jaguar Land Rover L,F-PACE 30t,2,4,22,27,24
+2020,FCA US LLC,Cherokee 4X4,2,4,21,29,24
 2020,FCA US LLC,Cherokee 4X4,2.4,4,21,29,24
 2020,FCA US LLC,Cherokee 4X4,3.2,6,19,27,22
-2020,FCA US LLC,Cherokee 4x4 Active Drive II,2.0,4,20,27,23
+2020,FCA US LLC,Cherokee 4x4 Active Drive II,2,4,20,27,23
 2020,FCA US LLC,Cherokee 4x4 Active Drive II,3.2,6,18,26,21
-2020,FCA US LLC,Cherokee Trailhawk 4X4,2.0,4,20,26,22
+2020,FCA US LLC,Cherokee Trailhawk 4X4,2,4,20,26,22
 2020,FCA US LLC,Cherokee Trailhawk 4X4,3.2,6,18,24,21
 2020,FCA US LLC,Compass 4X4,2.4,4,22,30,25
 2020,FCA US LLC,Compass 4X4,2.4,4,22,31,25
 2020,FCA US LLC,Renegade 4x4,1.3,4,23,29,26
 2020,FCA US LLC,Renegade 4x4,2.4,4,21,29,24
 2020,FCA US LLC,Renegade Trailhawk 4x4,1.3,4,22,27,24
-2020,FCA US LLC,Wrangler 4x4,2.0,4,21,22,21
-2020,FCA US LLC,Wrangler 4x4,2.0,4,22,24,23
+2020,FCA US LLC,Wrangler 4x4,2,4,21,22,21
+2020,FCA US LLC,Wrangler 4x4,2,4,22,24,23
 2020,FCA US LLC,Wrangler 4x4,3.6,6,18,23,20
 2020,FCA US LLC,Wrangler 4x4,3.6,6,17,25,20
-2020,FCA US LLC,Wrangler Unlimited 4x4,2.0,4,21,22,21
-2020,FCA US LLC,Wrangler Unlimited 4x4,2.0,4,21,22,21
-2020,FCA US LLC,Wrangler Unlimited 4x4,3.0,6,22,29,25
+2020,FCA US LLC,Wrangler Unlimited 4x4,2,4,21,22,21
+2020,FCA US LLC,Wrangler Unlimited 4x4,2,4,21,22,21
+2020,FCA US LLC,Wrangler Unlimited 4x4,3,6,22,29,25
 2020,FCA US LLC,Wrangler Unlimited 4x4,3.6,6,19,22,20
 2020,FCA US LLC,Wrangler Unlimited 4x4,3.6,6,18,22,20
 2020,FCA US LLC,Wrangler Unlimited 4x4,3.6,6,17,23,19
 2020,Kia,Sorento AWD,2.4,4,21,26,23
 2020,Kia,Sorento AWD,3.3,6,18,24,20
-2020,Kia,Sportage AWD,2.0,4,19,24,21
+2020,Kia,Sportage AWD,2,4,19,24,21
 2020,Kia,Sportage AWD,2.4,4,22,26,23
 2020,Kia,Telluride AWD,3.8,6,19,24,21
-2020,Jaguar Land Rover L,Discovery Sport,2.0,4,19,24,21
-2020,Jaguar Land Rover L,Discovery Sport MHEV,2.0,4,19,24,21
-2020,Jaguar Land Rover L,Evoque,2.0,4,20,27,23
-2020,Jaguar Land Rover L,Evoque MHEV,2.0,4,21,26,23
-2020,Jaguar Land Rover L,Range Rover Velar,2.0,4,21,27,23
-2020,Jaguar Land Rover L,Range Rover Velar,3.0,6,18,24,20
-2020,Jaguar Land Rover L,Range Rover Velar,5.0,8,15,20,17
-2020,Jaguar Land Rover L,Range Rover Velar P300,2.0,4,20,26,22
-2020,Jaguar Land Rover L,Range Rover Velar P380,3.0,6,18,24,20
-2020,Toyota,NX 300 AWD,2.0,4,22,28,24
-2020,Toyota,NX 300 AWD F SPORT,2.0,4,22,27,24
+2020,Jaguar Land Rover L,Discovery Sport,2,4,19,24,21
+2020,Jaguar Land Rover L,Discovery Sport MHEV,2,4,19,24,21
+2020,Jaguar Land Rover L,Evoque,2,4,20,27,23
+2020,Jaguar Land Rover L,Evoque MHEV,2,4,21,26,23
+2020,Jaguar Land Rover L,Range Rover Velar,2,4,21,27,23
+2020,Jaguar Land Rover L,Range Rover Velar,3,6,18,24,20
+2020,Jaguar Land Rover L,Range Rover Velar,5,8,15,20,17
+2020,Jaguar Land Rover L,Range Rover Velar P300,2,4,20,26,22
+2020,Jaguar Land Rover L,Range Rover Velar P380,3,6,18,24,20
+2020,Toyota,NX 300 AWD,2,4,22,28,24
+2020,Toyota,NX 300 AWD F SPORT,2,4,22,27,24
 2020,Toyota,NX 300h AWD,2.5,4,33,30,31
 2020,Toyota,RX 350 AWD,3.5,6,19,26,22
 2020,Toyota,RX 350L AWD,3.5,6,18,25,21
-2020,Ford Motor Company,CORSAIR AWD,2.0,4,21,29,24
+2020,Ford Motor Company,CORSAIR AWD,2,4,21,29,24
 2020,Ford Motor Company,CORSAIR AWD,2.3,4,21,28,24
-2020,Ford Motor Company,NAUTILUS AWD,2.0,4,20,25,22
+2020,Ford Motor Company,NAUTILUS AWD,2,4,20,25,22
 2020,Ford Motor Company,NAUTILUS AWD,2.7,6,19,26,21
 2020,MAZDA,CX-30 4WD,2.5,4,24,31,26
 2020,MAZDA,CX-30 4WD,2.5,4,25,32,27
 2020,MAZDA,CX-5 4WD,2.5,4,24,30,26
 2020,MAZDA,CX-5 4WD,2.5,4,22,27,24
 2020,MAZDA,CX-9 4WD,2.5,4,20,26,23
-2020,Mercedes-Benz,AMG GLC 43 4MATIC,3.0,6,18,24,21
-2020,Mercedes-Benz,AMG GLC 43 4MATIC (coupe),3.0,6,18,24,21
-2020,Mercedes-Benz,AMG GLC 63 4MATIC+,4.0,8,16,22,18
-2020,Mercedes-Benz,AMG GLC 63 4MATIC+ (coupe),4.0,8,16,22,18
-2020,Mercedes-Benz,AMG GLC 63 S 4MATIC+ (coupe),4.0,8,16,22,18
-2020,Mercedes-Benz,GLA 250 4MATIC,2.0,4,22,30,25
-2020,Mercedes-Benz,GLB 250 4MATIC,2.0,4,23,31,26
-2020,Mercedes-Benz,GLC 300 4MATIC,2.0,4,21,28,24
-2020,Mercedes-Benz,GLC 300 4MATIC (Coupe),2.0,4,21,28,24
-2020,Mercedes-Benz,GLE 350,2.0,4,20,27,22
-2020,Mercedes-Benz,GLE 350 4MATIC,2.0,4,19,26,22
+2020,Mercedes-Benz,AMG GLC 43 4MATIC,3,6,18,24,21
+2020,Mercedes-Benz,AMG GLC 43 4MATIC (coupe),3,6,18,24,21
+2020,Mercedes-Benz,AMG GLC 63 4MATIC+,4,8,16,22,18
+2020,Mercedes-Benz,AMG GLC 63 4MATIC+ (coupe),4,8,16,22,18
+2020,Mercedes-Benz,AMG GLC 63 S 4MATIC+ (coupe),4,8,16,22,18
+2020,Mercedes-Benz,GLA 250 4MATIC,2,4,22,30,25
+2020,Mercedes-Benz,GLB 250 4MATIC,2,4,23,31,26
+2020,Mercedes-Benz,GLC 300 4MATIC,2,4,21,28,24
+2020,Mercedes-Benz,GLC 300 4MATIC (Coupe),2,4,21,28,24
+2020,Mercedes-Benz,GLE 350,2,4,20,27,22
+2020,Mercedes-Benz,GLE 350 4MATIC,2,4,19,26,22
 2020,Mitsubishi Motors Co,ECLIPSE CROSS 4WD,1.5,4,25,26,25
 2020,Mitsubishi Motors Co,ECLIPSE CROSS ES 4WD,1.5,4,25,28,26
 2020,Mitsubishi Motors Co,OUTLANDER 4WD,2.4,4,24,29,26
-2020,Mitsubishi Motors Co,OUTLANDER 4WD,3.0,6,20,27,22
-2020,Mitsubishi Motors Co,OUTLANDER SPORT 4WD,2.0,4,23,29,26
+2020,Mitsubishi Motors Co,OUTLANDER 4WD,3,6,20,27,22
+2020,Mitsubishi Motors Co,OUTLANDER SPORT 4WD,2,4,23,29,26
 2020,Mitsubishi Motors Co,OUTLANDER SPORT 4WD,2.4,4,23,28,25
 2020,Nissan,PATHFINDER 4WD,3.5,6,20,27,22
 2020,Nissan,PATHFINDER 4WD PLATINUM,3.5,6,19,26,21
 2020,Nissan,ROGUE AWD,2.5,4,25,32,27
-2020,Porsche,Macan,2.0,4,19,23,21
+2020,Porsche,Macan,2,4,19,23,21
 2020,Porsche,Macan GTS,2.9,6,17,22,19
-2020,Porsche,Macan S,3.0,6,18,23,20
+2020,Porsche,Macan S,3,6,18,23,20
 2020,Porsche,Macan Turbo,2.9,6,17,22,19
-2020,Subaru,CROSSTREK AWD,2.0,4,27,33,30
-2020,Subaru,CROSSTREK AWD,2.0,4,22,29,25
+2020,Subaru,CROSSTREK AWD,2,4,27,33,30
+2020,Subaru,CROSSTREK AWD,2,4,22,29,25
 2020,Subaru,FORESTER AWD,2.5,4,26,33,29
 2020,Subaru,OUTBACK AWD,2.4,4,23,30,26
 2020,Subaru,OUTBACK AWD,2.5,4,26,33,29
@@ -1014,14 +1012,14 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,Toyota,RAV4 AWD LE,2.5,4,27,34,30
 2020,Toyota,RAV4 AWD TRD OFFROAD,2.5,4,25,32,27
 2020,Toyota,RAV4 HYBRID AWD,2.5,4,41,38,40
-2020,Volkswagen Group of,Atlas Cross Sport 4Motion,2.0,4,18,23,20
+2020,Volkswagen Group of,Atlas Cross Sport 4Motion,2,4,18,23,20
 2020,Volkswagen Group of,Atlas Cross Sport 4Motion,3.6,6,16,22,19
-2020,Volkswagen Group of,Tiguan 4Motion,2.0,4,20,27,23
-2020,Volvo,XC40 AWD,2.0,4,22,30,25
-2020,Volvo,XC60 AWD,2.0,4,20,27,23
-2020,Volvo,XC60 AWD,2.0,4,20,27,23
-2020,BMW,X5 sDrive40i,3.0,6,21,26,23
-2020,BMW,X6 sDrive40i,3.0,6,21,26,23
+2020,Volkswagen Group of,Tiguan 4Motion,2,4,20,27,23
+2020,Volvo,XC40 AWD,2,4,22,30,25
+2020,Volvo,XC60 AWD,2,4,20,27,23
+2020,Volvo,XC60 AWD,2,4,20,27,23
+2020,BMW,X5 sDrive40i,3,6,21,26,23
+2020,BMW,X6 sDrive40i,3,6,21,26,23
 2020,General Motors,ENCLAVE FWD,3.6,6,18,26,21
 2020,General Motors,ESCALADE 2WD,6.2,8,14,23,17
 2020,General Motors,C1500 SUBURBAN 2WD,5.3,8,15,22,18
@@ -1037,7 +1035,7 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,Ford Motor Company,Expedition MAX 2WD,3.5,6,17,23,19
 2020,Ford Motor Company,EXPLORER HEV RWD,3.3,6,27,29,28
 2020,Ford Motor Company,EXPLORER RWD,2.3,4,21,28,24
-2020,General Motors,ACADIA FWD,2.0,4,21,28,24
+2020,General Motors,ACADIA FWD,2,4,21,28,24
 2020,General Motors,ACADIA FWD,2.5,4,21,27,23
 2020,General Motors,ACADIA FWD,3.6,6,19,27,22
 2020,General Motors,C1500 YUKON 2WD,5.3,8,15,22,18
@@ -1049,32 +1047,32 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,Hyundai,Palisade FWD,3.8,6,19,26,22
 2020,Nissan,QX80 2WD,5.6,8,14,20,16
 2020,FCA US LLC,Grand Cherokee 4X2,3.6,6,19,26,21
-2020,Ford Motor Company,AVIATOR RWD,3.0,6,18,26,21
+2020,Ford Motor Company,AVIATOR RWD,3,6,18,26,21
 2020,Ford Motor Company,NAVIGATOR 2WD,3.5,6,16,22,19
 2020,Ford Motor Company,NAVIGATOR L 2WD,3.5,6,16,21,18
 2020,Nissan,ARMADA 2WD,5.6,8,14,19,16
-2020,Toyota,4RUNNER 2WD,4.0,6,16,19,17
+2020,Toyota,4RUNNER 2WD,4,6,16,19,17
 2020,Toyota,SEQUOIA 2WD,5.7,8,13,17,15
-2020,Volvo,XC90 FWD,2.0,4,21,30,25
-2020,Volkswagen Group of,Q7,2.0,4,19,23,21
-2020,Volkswagen Group of,Q7,3.0,6,17,21,18
-2020,Volkswagen Group of,Q8,3.0,6,17,21,18
-2020,Volkswagen Group of,RS Q8,4.0,8,13,19,15
-2020,Volkswagen Group of,SQ7,4.0,8,15,21,17
-2020,Volkswagen Group of,SQ8,4.0,8,15,21,17
-2020,Volkswagen Group of,Bentayga,4.0,8,14,23,17
-2020,Volkswagen Group of,Bentayga,6.0,12,12,17,14
+2020,Volvo,XC90 FWD,2,4,21,30,25
+2020,Volkswagen Group of,Q7,2,4,19,23,21
+2020,Volkswagen Group of,Q7,3,6,17,21,18
+2020,Volkswagen Group of,Q8,3,6,17,21,18
+2020,Volkswagen Group of,RS Q8,4,8,13,19,15
+2020,Volkswagen Group of,SQ7,4,8,15,21,17
+2020,Volkswagen Group of,SQ8,4,8,15,21,17
+2020,Volkswagen Group of,Bentayga,4,8,14,23,17
+2020,Volkswagen Group of,Bentayga,6,12,12,17,14
 2020,BMW,X5 M,4.4,8,13,18,15
 2020,BMW,X5 M Competition,4.4,8,13,18,15
 2020,BMW,X5 M50i,4.4,8,16,22,18
-2020,BMW,X5 xDrive40i,3.0,6,20,26,22
+2020,BMW,X5 xDrive40i,3,6,20,26,22
 2020,BMW,X5 xDrive50i,4.4,8,16,22,18
 2020,BMW,X6 M,4.4,8,13,18,15
 2020,BMW,X6 M Competition,4.4,8,13,18,15
 2020,BMW,X6 M50i,4.4,8,16,22,18
-2020,BMW,X6 xDrive40i,3.0,6,20,26,22
+2020,BMW,X6 xDrive40i,3,6,20,26,22
 2020,BMW,X7 M50i,4.4,8,15,21,17
-2020,BMW,X7 xDrive40i,3.0,6,20,25,22
+2020,BMW,X7 xDrive40i,3,6,20,25,22
 2020,BMW,X7 xDrive50i,4.4,8,15,21,17
 2020,General Motors,ENCLAVE AWD,3.6,6,17,25,20
 2020,General Motors,ESCALADE 4WD,6.2,8,14,21,17
@@ -1091,10 +1089,10 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,Ford Motor Company,Expedition 4WD,3.5,6,17,22,19
 2020,Ford Motor Company,Expedition MAX 4WD,3.5,6,16,21,18
 2020,Ford Motor Company,EXPLORER AWD,2.3,4,20,27,23
-2020,Ford Motor Company,EXPLORER AWD,3.0,6,18,24,20
+2020,Ford Motor Company,EXPLORER AWD,3,6,18,24,20
 2020,Ford Motor Company,EXPLORER FFV AWD,3.3,6,16,23,19
 2020,Ford Motor Company,EXPLORER HEV AWD,3.3,6,23,26,25
-2020,General Motors,ACADIA AWD,2.0,4,21,27,23
+2020,General Motors,ACADIA AWD,2,4,21,27,23
 2020,General Motors,ACADIA AWD,3.6,6,18,25,21
 2020,General Motors,K1500 YUKON 4WD,5.3,8,15,21,17
 2020,General Motors,K1500 YUKON 4WD,5.3,8,15,21,17
@@ -1108,54 +1106,54 @@ Model Year,Mfr Name,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2020,FCA US LLC,Grand Cherokee 4X4,5.7,8,14,22,17
 2020,FCA US LLC,Grand Cherokee SRT 4x4,6.4,8,13,19,15
 2020,FCA US LLC,Grand Cherokee Trackhawk 4x4,6.2,8,11,17,13
-2020,Volkswagen Group of,Urus,4.0,8,12,17,14
-2020,Jaguar Land Rover L,Defender 110,2.0,4,17,20,18
-2020,Jaguar Land Rover L,Defender 110 MHEV,3.0,6,17,22,19
-2020,Jaguar Land Rover L,Defender 90,2.0,4,18,21,19
-2020,Jaguar Land Rover L,Defender 90 MHEV,3.0,6,17,22,19
-2020,Jaguar Land Rover L,Discovery,3.0,6,21,26,23
-2020,Jaguar Land Rover L,Discovery,3.0,6,16,21,18
-2020,Jaguar Land Rover L,Range Rover,3.0,6,22,28,24
-2020,Jaguar Land Rover L,Range Rover,5.0,8,16,21,18
-2020,Jaguar Land Rover L,Range Rover LWB,5.0,8,16,21,18
-2020,Jaguar Land Rover L,Range Rover LWB SVA,5.0,8,13,19,15
-2020,Jaguar Land Rover L,Range Rover MHEV,3.0,6,19,24,21
-2020,Jaguar Land Rover L,Range Rover Sport,3.0,6,22,28,24
-2020,Jaguar Land Rover L,Range Rover Sport,5.0,8,17,22,19
-2020,Jaguar Land Rover L,Range Rover Sport SVR,5.0,8,15,20,16
-2020,Jaguar Land Rover L,Range Rover SVA,5.0,8,14,19,16
+2020,Volkswagen Group of,Urus,4,8,12,17,14
+2020,Jaguar Land Rover L,Defender 110,2,4,17,20,18
+2020,Jaguar Land Rover L,Defender 110 MHEV,3,6,17,22,19
+2020,Jaguar Land Rover L,Defender 90,2,4,18,21,19
+2020,Jaguar Land Rover L,Defender 90 MHEV,3,6,17,22,19
+2020,Jaguar Land Rover L,Discovery,3,6,21,26,23
+2020,Jaguar Land Rover L,Discovery,3,6,16,21,18
+2020,Jaguar Land Rover L,Range Rover,3,6,22,28,24
+2020,Jaguar Land Rover L,Range Rover,5,8,16,21,18
+2020,Jaguar Land Rover L,Range Rover LWB,5,8,16,21,18
+2020,Jaguar Land Rover L,Range Rover LWB SVA,5,8,13,19,15
+2020,Jaguar Land Rover L,Range Rover MHEV,3,6,19,24,21
+2020,Jaguar Land Rover L,Range Rover Sport,3,6,22,28,24
+2020,Jaguar Land Rover L,Range Rover Sport,5,8,17,22,19
+2020,Jaguar Land Rover L,Range Rover Sport SVR,5,8,15,20,16
+2020,Jaguar Land Rover L,Range Rover SVA,5,8,14,19,16
 2020,Toyota,GX 460,4.6,8,15,19,16
 2020,Toyota,LX 570,5.7,8,12,16,14
 2020,Toyota,RX 450h AWD,3.5,6,31,28,30
 2020,Toyota,RX 450hL AWD,3.5,6,29,28,29
-2020,Ford Motor Company,AVIATOR AWD,3.0,6,17,24,20
+2020,Ford Motor Company,AVIATOR AWD,3,6,17,24,20
 2020,Ford Motor Company,NAVIGATOR 4WD,3.5,6,16,21,18
-2020,Maserati,LEVANTE,3.0,6,15,21,17
+2020,Maserati,LEVANTE,3,6,15,21,17
 2020,Maserati,LEVANTE GTS,3.8,8,14,18,15
-2020,Maserati,LEVANTE S,3.0,6,15,21,17
+2020,Maserati,LEVANTE S,3,6,15,21,17
 2020,Maserati,LEVANTE TROFEO,3.8,8,14,18,15
-2020,Mercedes-Benz,AMG G 63,4.0,8,13,15,14
-2020,Mercedes-Benz,G 550,4.0,8,13,17,14
-2020,Mercedes-Benz,GLE 450 4MATIC,3.0,6,19,24,21
-2020,Mercedes-Benz,GLE 580 4MATIC,4.0,8,17,21,19
-2020,Mercedes-Benz,GLS 450 4MATIC,3.0,6,19,23,21
-2020,Mercedes-Benz,GLS 580 4MATIC,4.0,8,16,21,18
+2020,Mercedes-Benz,AMG G 63,4,8,13,15,14
+2020,Mercedes-Benz,G 550,4,8,13,17,14
+2020,Mercedes-Benz,GLE 450 4MATIC,3,6,19,24,21
+2020,Mercedes-Benz,GLE 580 4MATIC,4,8,17,21,19
+2020,Mercedes-Benz,GLS 450 4MATIC,3,6,19,23,21
+2020,Mercedes-Benz,GLS 580 4MATIC,4,8,16,21,18
 2020,Nissan,ARMADA 4WD,5.6,8,13,18,15
-2020,Porsche,Cayenne,3.0,6,19,23,20
-2020,Porsche,Cayenne Coupé,3.0,6,19,23,20
+2020,Porsche,Cayenne,3,6,19,23,20
+2020,Porsche,Cayenne Coupé,3,6,19,23,20
 2020,Porsche,Cayenne S,2.9,6,18,22,20
 2020,Porsche,Cayenne S Coupé,2.9,6,18,22,19
-2020,Porsche,Cayenne Turbo,4.0,8,15,19,17
-2020,Porsche,Cayenne Turbo Coupé,4.0,8,15,19,17
+2020,Porsche,Cayenne Turbo,4,8,15,19,17
+2020,Porsche,Cayenne Turbo Coupé,4,8,15,19,17
 2020,Subaru,ASCENT AWD,2.4,4,21,27,23
 2020,Subaru,ASCENT LIMITED/TOURING AWD,2.4,4,20,26,22
-2020,Toyota,4RUNNER 4WD,4.0,6,16,19,17
-2020,Toyota,4RUNNER 4WD,4.0,6,16,19,17
+2020,Toyota,4RUNNER 4WD,4,6,16,19,17
+2020,Toyota,4RUNNER 4WD,4,6,16,19,17
 2020,Toyota,HIGHLANDER HYBRID AWD,2.5,4,35,35,35
 2020,Toyota,HIGHLANDER HYBRID AWD LTD/PLAT,2.5,4,35,34,35
 2020,Toyota,LAND CRUISER WAGON 4WD,5.7,8,13,17,14
 2020,Toyota,SEQUOIA 4WD,5.7,8,13,17,14
 2020,Volkswagen Group of,Atlas 4Motion,3.6,6,16,22,19
-2020,Volvo,XC90 AWD,2.0,4,18,26,21
-2020,Volvo,XC90 AWD,2.0,4,20,27,23
-2020,Pagani Automobili S,Pagani Huayra Roadster BC,6.0,12,10,15,12
+2020,Volvo,XC90 AWD,2,4,18,26,21
+2020,Volvo,XC90 AWD,2,4,20,27,23
+2020,Pagani Automobili S,Pagani Huayra Roadster BC,6,12,10,15,12
