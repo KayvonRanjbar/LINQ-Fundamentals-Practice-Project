@@ -8,6 +8,14 @@ namespace QueriesPractice
 {
     static class MyOwnLinq
     {
+        public static IEnumerable<int> Random()
+        {
+            var random = new Random();
+            while (true)
+            {
+                yield return random.Next();
+            }
+        }
         public static IEnumerable<T> Filter<T>(this IEnumerable<T> source, Func<T, bool> predicate)
         {
             foreach (var item in source)

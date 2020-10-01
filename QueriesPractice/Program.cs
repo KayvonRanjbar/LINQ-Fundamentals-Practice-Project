@@ -15,8 +15,16 @@ namespace QueriesPractice
         // Avoiding multiple enumerations by not using deferred execution
         // Look at how exceptions work with deferred queries
         // Distinguish between streaming and non-streaming operators
+        // Use take with an infinite sequence
         static void Main(string[] args)
         {
+            var numbersQuery = MyOwnLinq.Random().Where(n => n > 100).Take(15);
+
+            foreach (var number in numbersQuery)
+            {
+                Console.WriteLine(number);
+            }
+
             var books = new List<Book>
             {
                 new Book { Title = "Emma", Author = "Jane Austen", YearPublished = 1815 },
