@@ -17,6 +17,7 @@ namespace QueriesPractice
         {
             get
             {
+                //throw new Exception("I wanted an exception!");
                 Console.WriteLine($"Returned {_yearPublished} for {Title}");
                 return _yearPublished;
             }

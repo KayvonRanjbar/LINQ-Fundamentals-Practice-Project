@@ -13,6 +13,7 @@ namespace QueriesPractice
         // Use yield return to use deferred execution with custom filter method
         // See how deferred execution is happening
         // Avoiding multiple enumerations by not using deferred execution
+        // Look at how exceptions work with deferred queries
         static void Main(string[] args)
         {
             var books = new List<Book>
@@ -34,14 +35,32 @@ namespace QueriesPractice
             Console.WriteLine("****");
             */
 
+            // var queryWithMyCustomFilter = Enumerable.Empty<Book>();
+
             // trying out new method
-            var queryWithMyCustomFilter = books.Filter(b => b.YearPublished <= 1850);
-            
+
+            /*
+            try
+            {
+                // Will catch the error because of immediate execution
+                //queryWithMyCustomFilter = books.Filter(b => b.YearPublished <= 1850).ToList();
+
+                // Will not catch the error because of deferred execution
+                queryWithMyCustomFilter = books.Filter(b => b.YearPublished <= 1850);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            */
+
+            var queryWithMyCustomFilter = books.Filter(b => b.YearPublished <= 1850).ToList();
+
             // Deferred execution causes this to be enumerated twice
             // queryWithMyCustomFilter = queryWithMyCustomFilter.Take(1);
 
-            // Enumerating the IEnumerable hear disables deferred execution so it only gets enumerated once
-            queryWithMyCustomFilter = queryWithMyCustomFilter.Take(1).ToList();
+            // Enumerating the IEnumerable here disables deferred execution so it only gets enumerated once
+            // queryWithMyCustomFilter = queryWithMyCustomFilter.Take(1).ToList();
 
             Console.WriteLine(queryWithMyCustomFilter.Count());
 
