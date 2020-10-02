@@ -14,6 +14,7 @@ namespace Cars
         // Find the most fuel efficient cars
         // Filter with Where and Last (and LastOrDefault)
         // Project data with a custom extension method and select
+        // Flatten data (down to the char level!) with SelectMany
         static void Main(string[] args)
         {
             var cars = ProcessFile("fuel.csv");
@@ -30,15 +31,18 @@ namespace Cars
                     car.Highway
                 };
 
-            var result = cars.Select(c => new { c.Manufacturer,
-                                                c.Name, c.Combined, c.Highway});
+            var result = cars.SelectMany(c => c.Name)
+                             .OrderByDescending(c => c);
 
-            Console.WriteLine(result);
-
-            foreach (var car in query.Take(15))
+            foreach (var character in result)
             {
-                Console.WriteLine($"{car.Manufacturer} {car.Name} : {car.Combined} : {car.Highway}");
+                Console.WriteLine(character);
             }
+
+            //foreach (var car in query.Take(15))
+            //{
+            //    Console.WriteLine($"{car.Manufacturer} {car.Name} : {car.Combined} : {car.Highway}");
+            //}
         }
 
         private static List<Car> ProcessFile(string path)
