@@ -22,13 +22,9 @@ namespace Cars
                 orderby car.Combined descending, car.Highway descending
                 select car;
 
-            var query2 = cars
-                             .OrderByDescending(c => c.Combined)
-                             .ThenByDescending(c => c.Highway)
-                             .Select(c => c)
-                             .LastOrDefault(c => c.Manufacturer == "Crazy" && c.Year == 2020);
+            var result = cars.Contains(null);
 
-            Console.WriteLine(query2.Name);
+            Console.WriteLine(result);
 
             foreach (var car in query.Take(15))
             {
