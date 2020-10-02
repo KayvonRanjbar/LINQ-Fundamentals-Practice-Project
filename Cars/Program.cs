@@ -11,39 +11,33 @@ namespace Cars
     {
         // Implement a file processor to transform the csv file into a list of cars in memory
         // Find the most fuel efficient cars
+        // Filter with Where and Last (and LastOrDefault)
         static void Main(string[] args)
         {
             var cars = ProcessFile("fuel.csv");
 
-            // method syntax
-            //var query = cars.OrderByDescending(c => c.Combined)
-            //                .ThenBy(c => c.Name);
-
-            // query syntax
             var query =
                 from car in cars
+                where car.Manufacturer == "Porsche" && car.Year == 2020
                 orderby car.Combined descending, car.Highway descending
                 select car;
 
+            var query2 = cars
+                             .OrderByDescending(c => c.Combined)
+                             .ThenByDescending(c => c.Highway)
+                             .Select(c => c)
+                             .LastOrDefault(c => c.Manufacturer == "Crazy" && c.Year == 2020);
+
+            Console.WriteLine(query2.Name);
+
             foreach (var car in query.Take(15))
             {
-                Console.WriteLine($"{car.Name} : {car.Combined} : {car.Highway}");
+                Console.WriteLine($"{car.Manufacturer} {car.Name} : {car.Combined} : {car.Highway}");
             }
         }
 
         private static List<Car> ProcessFile(string path)
         {
-            // method syntax
-            /*
-            return
-                File.ReadAllLines(path)
-                    .Where(line => line.Length > 1)
-                    .Skip(1)
-                    .Select(Car.ParseFromCSV)
-                    .ToList();
-            */
-
-            // query syntax
             var query =
                 from line in File.ReadAllLines(path).Skip(1)
                 where line.Length > 1
