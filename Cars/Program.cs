@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,6 +13,7 @@ namespace Cars
         // Implement a file processor to transform the csv file into a list of cars in memory
         // Find the most fuel efficient cars
         // Filter with Where and Last (and LastOrDefault)
+        // Project data with a custom extension method and select
         static void Main(string[] args)
         {
             var cars = ProcessFile("fuel.csv");
@@ -20,9 +22,16 @@ namespace Cars
                 from car in cars
                 where car.Manufacturer == "Porsche" && car.Year == 2020
                 orderby car.Combined descending, car.Highway descending
-                select car;
+                select new
+                {
+                    car.Manufacturer,
+                    car.Name,
+                    car.Combined,   
+                    car.Highway
+                };
 
-            var result = cars.Contains(null);
+            var result = cars.Select(c => new { c.Manufacturer,
+                                                c.Name, c.Combined, c.Highway});
 
             Console.WriteLine(result);
 
@@ -35,10 +44,34 @@ namespace Cars
         private static List<Car> ProcessFile(string path)
         {
             var query =
-                from line in File.ReadAllLines(path).Skip(1)
-                where line.Length > 1
-                select Car.ParseFromCSV(line);
+                File.ReadAllLines(path)
+                    .Skip(1)
+                    .Where(l => l.Length > 1)
+                    .ToCar();
+
             return query.ToList();
+        }
+    }
+
+    public static class CarExtensions
+    {
+        public static IEnumerable<Car> ToCar(this IEnumerable<string> source)
+        {
+            foreach (var line in source)
+            {
+                var columns = line.Split(',');
+                yield return new Car
+                {
+                    Year = int.Parse(columns[0]),
+                    Manufacturer = columns[1],
+                    Name = columns[2],
+                    Displacement = double.Parse(columns[3]),
+                    Cylinders = int.Parse(columns[4]),
+                    City = int.Parse(columns[5]),
+                    Highway = int.Parse(columns[6]),
+                    Combined = int.Parse(columns[7])
+                };
+            }
         }
     }
 }
