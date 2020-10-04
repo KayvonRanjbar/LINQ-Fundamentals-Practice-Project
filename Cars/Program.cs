@@ -18,6 +18,7 @@ namespace Cars
         // Add a manufacturer csv and class
         // Join data using query syntax
         // Join data with extension method syntax
+        // Create a join with a composite key
         static void Main(string[] args)
         {
             var cars = ProcessCars("fuel.csv");
@@ -26,7 +27,8 @@ namespace Cars
             var query =
                 from car in cars
                 join manufacturer in manufacturers
-                    on car.Manufacturer equals manufacturer.Name
+                    on new { car.Manufacturer, car.Year }
+                        equals new { Manufacturer = manufacturer.Name, manufacturer.Year }
                 orderby car.Combined descending, car.Highway descending
                 select new
                 {
@@ -37,8 +39,8 @@ namespace Cars
                 };
 
             var query2 = cars.Join(manufacturers,
-                                    c => c.Manufacturer,
-                                    m => m.Name,
+                                    c => new { c.Manufacturer, c.Year },
+                                    m => new { Manufacturer = m.Name, m.Year },
                                     (c,m) => new
                                     {
                                         m.Headquarters,
