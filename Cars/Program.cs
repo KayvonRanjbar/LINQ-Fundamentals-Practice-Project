@@ -17,6 +17,7 @@ namespace Cars
         // Flatten data (down to the char level!) with SelectMany
         // Add a manufacturer csv and class
         // Join data using query syntax
+        // Join data with extension method syntax
         static void Main(string[] args)
         {
             var cars = ProcessCars("fuel.csv");
@@ -35,7 +36,20 @@ namespace Cars
                     car.Highway
                 };
 
-            foreach (var car in query.Take(15))
+            var query2 = cars.Join(manufacturers,
+                                    c => c.Manufacturer,
+                                    m => m.Name,
+                                    (c,m) => new
+                                    {
+                                        m.Headquarters,
+                                        c.Name,
+                                        c.Combined,
+                                        c.Highway
+                                    })
+                            .OrderByDescending(c => c.Combined)
+                            .ThenBy(c => c.Highway);
+
+            foreach (var car in query2.Take(15))
             {
                 Console.WriteLine($"{car.Headquarters} {car.Name} : {car.Combined} : {car.Highway}");
             }
