@@ -16,6 +16,7 @@ namespace Cars
         // Project data with a custom extension method and select
         // Flatten data (down to the char level!) with SelectMany
         // Add a manufacturer csv and class
+        // Join data using query syntax
         static void Main(string[] args)
         {
             var cars = ProcessCars("fuel.csv");
@@ -23,28 +24,21 @@ namespace Cars
 
             var query =
                 from car in cars
-                where car.Manufacturer == "Porsche" && car.Year == 2020
+                join manufacturer in manufacturers
+                    on car.Manufacturer equals manufacturer.Name
                 orderby car.Combined descending, car.Highway descending
                 select new
                 {
-                    car.Manufacturer,
+                    manufacturer.Headquarters,
                     car.Name,
-                    car.Combined,   
+                    car.Combined,
                     car.Highway
                 };
 
-            var result = cars.SelectMany(c => c.Name)
-                             .OrderByDescending(c => c);
-
-            foreach (var character in result)
+            foreach (var car in query.Take(15))
             {
-                Console.WriteLine(character);
+                Console.WriteLine($"{car.Headquarters} {car.Name} : {car.Combined} : {car.Highway}");
             }
-
-            //foreach (var car in query.Take(15))
-            //{
-            //    Console.WriteLine($"{car.Manufacturer} {car.Name} : {car.Combined} : {car.Highway}");
-            //}
         }
 
         private static List<Manufacturer> ProcessManufacturers(string path)
