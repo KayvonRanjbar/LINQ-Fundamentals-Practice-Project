@@ -19,6 +19,7 @@ namespace Cars
         // Join data using query syntax
         // Join data with extension method syntax
         // Create a join with a composite key
+        // Group data by car manufacturer
         static void Main(string[] args)
         {
             var cars = ProcessCars("fuel.csv");
@@ -26,34 +27,21 @@ namespace Cars
 
             var query =
                 from car in cars
-                join manufacturer in manufacturers
-                    on new { car.Manufacturer, car.Year }
-                        equals new { Manufacturer = manufacturer.Name, manufacturer.Year }
-                orderby car.Combined descending, car.Highway descending
-                select new
-                {
-                    manufacturer.Headquarters,
-                    car.Name,
-                    car.Combined,
-                    car.Highway
-                };
+                group car by car.Manufacturer.ToUpper() into manufacturer
+                orderby manufacturer.Key
+                select manufacturer;
 
-            var query2 = cars.Join(manufacturers,
-                                    c => new { c.Manufacturer, c.Year },
-                                    m => new { Manufacturer = m.Name, m.Year },
-                                    (c,m) => new
-                                    {
-                                        m.Headquarters,
-                                        c.Name,
-                                        c.Combined,
-                                        c.Highway
-                                    })
-                            .OrderByDescending(c => c.Combined)
-                            .ThenBy(c => c.Highway);
+            var query2 =
+                cars.GroupBy(c => c.Manufacturer.ToUpper())
+                    .OrderBy(g => g.Key);
 
-            foreach (var car in query2.Take(15))
+            foreach (var group in query2)
             {
-                Console.WriteLine($"{car.Headquarters} {car.Name} : {car.Combined} : {car.Highway}");
+                Console.WriteLine(group.Key);
+                foreach (var car in group.OrderByDescending(c => c.Highway).Take(5))
+                {
+                    Console.WriteLine($"\t{car.Name} : {car.Highway}");
+                }
             }
         }
 
