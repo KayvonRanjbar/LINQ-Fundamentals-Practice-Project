@@ -21,6 +21,7 @@ namespace Cars
         // Create a join with a composite key
         // Group data by car manufacturer
         // Use groupjoin!
+        // Try to find the top 5 cars by country
         static void Main(string[] args)
         {
             var cars = ProcessCars("fuel.csv");
@@ -30,12 +31,12 @@ namespace Cars
                 from manufacturer in manufacturers
                 join car in cars on manufacturer.Name equals car.Manufacturer
                     into carGroup
-                orderby manufacturer.Name descending
                 select new
                 {
                     Manufacturer = manufacturer,
                     Cars = carGroup
-                };
+                } into result
+                group result by result.Manufacturer.Headquarters;
 
             var query2 =
                 manufacturers.GroupJoin(cars, m => m.Name, c => c.Manufacturer,
@@ -44,12 +45,13 @@ namespace Cars
                         {
                             Manufacturer = m,
                             Cars = g
-                        }).OrderByDescending(m => m.Manufacturer.Name);
+                        })
+                .GroupBy(g => g.Manufacturer.Headquarters);
 
             foreach (var group in query2)
             {
-                Console.WriteLine(group.Manufacturer.Name);
-                foreach (var car in group.Cars.OrderByDescending(c => c.Highway).Take(5))
+                Console.WriteLine(group.Key);
+                foreach (var car in group.SelectMany(g => g.Cars).OrderByDescending(c => c.Highway).Take(5))
                 {
                     Console.WriteLine($"\t{car.Name} : {car.Highway}");
                 }
