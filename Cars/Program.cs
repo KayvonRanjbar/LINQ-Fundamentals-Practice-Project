@@ -23,6 +23,7 @@ namespace Cars
         // Use groupjoin!
         // Try to find the top 5 cars by country
         // Aggregate data on manufacturers
+        // Efficiently aggregate with the aggregate extension method
         static void Main(string[] args)
         {
             var cars = ProcessCars("fuel.csv");
@@ -42,16 +43,23 @@ namespace Cars
                 select result;
 
             var query2 =
-                manufacturers.GroupJoin(cars, m => m.Name, c => c.Manufacturer,
-                    (m, g) =>
-                        new
+                cars.GroupBy(c => c.Manufacturer)
+                    .Select(g =>
+                    {
+                        var results = g.Aggregate(new CarStatistics(),
+                                            (acc, c) => acc.Accumulate(c),
+                                            acc => acc.Compute());
+                        return new
                         {
-                            Manufacturer = m,
-                            Cars = g
-                        })
-                .GroupBy(g => g.Manufacturer.Headquarters);
+                            Name = g.Key,
+                            Max = results.Max,
+                            Min = results.Min,
+                            Avg = results.Average
+                        };
+                    })
+                    .OrderByDescending(r => r.Avg);
 
-            foreach (var result in query)
+            foreach (var result in query2)
             {
                 Console.WriteLine(result.Name);
                 Console.WriteLine($"\t Max: {result.Max}");
@@ -88,6 +96,38 @@ namespace Cars
                     .ToCar();
 
             return query.ToList();
+        }
+    }
+
+    public class CarStatistics
+    {
+        public CarStatistics()
+        {
+            Max = int.MinValue;
+            Min = int.MaxValue;
+        }
+
+        public int Max { get; set; }
+        public int Min { get; set; }
+        public double Average { get; set; }
+        public int Total { get; set; }
+        public int Count { get; set; }
+
+        public CarStatistics Accumulate(Car car)
+        {
+            Total += car.Highway;
+            Count++;
+            Max = Math.Max(Max, car.Highway);
+            Min = Math.Min(Min, car.Highway);
+
+            return this;
+        }
+
+        public CarStatistics Compute()
+        {
+            Average = Total / Count;
+
+            return this;
         }
     }
 
