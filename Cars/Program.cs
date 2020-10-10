@@ -5,6 +5,8 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
+using System.Xml.Linq;
 
 namespace Cars
 {
@@ -24,48 +26,28 @@ namespace Cars
         // Try to find the top 5 cars by country
         // Aggregate data on manufacturers
         // Efficiently aggregate with the aggregate extension method
+        // Build an xml file from fuel.csv
         static void Main(string[] args)
         {
-            var cars = ProcessCars("fuel.csv");
-            var manufacturers = ProcessManufacturers("manufacturers.csv");
+            var records = ProcessCars("fuel.csv");
 
-            var query =
-                from car in cars
-                group car by car.Manufacturer into carGroups
-                select new
-                {
-                    Name = carGroups.Key,
-                    Max = carGroups.Max(c => c.Highway),
-                    Min = carGroups.Min(c => c.Highway),
-                    Avg = carGroups.Average(c => c.Highway)
-                } into result
-                orderby result.Avg descending
-                select result;
+            var document = new XDocument();
+            var cars = new XElement("Cars");
 
-            var query2 =
-                cars.GroupBy(c => c.Manufacturer)
-                    .Select(g =>
-                    {
-                        var results = g.Aggregate(new CarStatistics(),
-                                            (acc, c) => acc.Accumulate(c),
-                                            acc => acc.Compute());
-                        return new
-                        {
-                            Name = g.Key,
-                            Max = results.Max,
-                            Min = results.Min,
-                            Avg = results.Average
-                        };
-                    })
-                    .OrderByDescending(r => r.Avg);
-
-            foreach (var result in query2)
+            foreach (var record in records)
             {
-                Console.WriteLine(result.Name);
-                Console.WriteLine($"\t Max: {result.Max}");
-                Console.WriteLine($"\t Min: {result.Min}");
-                Console.WriteLine($"\t Avg: {result.Avg}");
+                var car = new XElement("Car");
+                var name = new XElement("Name", record.Name);
+                var combined = new XElement("Combined", record.Combined);
+
+                car.Add(name);
+                car.Add(combined);
+
+                cars.Add(car);
             }
+
+            document.Add(cars);
+            document.Save("fuel.xml");
         }
 
         private static List<Manufacturer> ProcessManufacturers(string path)
