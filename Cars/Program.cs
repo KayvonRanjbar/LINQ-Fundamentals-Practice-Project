@@ -30,6 +30,11 @@ namespace Cars
         // Use functional construction of the xml for less code - more declarative, less imperative
         static void Main(string[] args)
         {
+            CreateXml();
+        }
+
+        private static void CreateXml()
+        {
             var records = ProcessCars("fuel.csv");
 
             var document = new XDocument();
