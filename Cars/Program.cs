@@ -27,24 +27,18 @@ namespace Cars
         // Aggregate data on manufacturers
         // Efficiently aggregate with the aggregate extension method
         // Build an xml file from fuel.csv
+        // Use functional construction of the xml for less code - more declarative, less imperative
         static void Main(string[] args)
         {
             var records = ProcessCars("fuel.csv");
 
             var document = new XDocument();
-            var cars = new XElement("Cars");
-
-            foreach (var record in records)
-            {
-                var car = new XElement("Car");
-                var name = new XElement("Name", record.Name);
-                var combined = new XElement("Combined", record.Combined);
-
-                car.Add(name);
-                car.Add(combined);
-
-                cars.Add(car);
-            }
+            var cars = new XElement("Cars",
+                from record in records
+                select new XElement("Car",
+                                new XElement("Name", record.Name),
+                                new XElement("Combined", record.Combined))
+            );
 
             document.Add(cars);
             document.Save("fuel.xml");
