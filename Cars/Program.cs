@@ -30,6 +30,7 @@ namespace Cars
         // Use functional construction of the xml for less code - more declarative, less imperative
         // Load and query the xml for just the car names of Toyota
         // Work with xml namespaces
+        // Set up Entity Framework
         static void Main(string[] args)
         {
             CreateXml();
