@@ -28,9 +28,23 @@ namespace Cars
         // Efficiently aggregate with the aggregate extension method
         // Build an xml file from fuel.csv
         // Use functional construction of the xml for less code - more declarative, less imperative
+        // Load and query the xml for just the car names of Toyota
         static void Main(string[] args)
         {
             CreateXml();
+            QueryXml();
+        }
+
+        private static void QueryXml()
+        {
+            var document = XDocument.Load("fuel.xml");
+            var query = document.Element("Cars").Elements("Car").Where(e => e.Attribute("Manufacturer").Value == "Toyota")
+                                                                .Select(e => e.Attribute("Name").Value);
+
+            foreach (var name in query)
+            {
+                Console.WriteLine(name);
+            }
         }
 
         private static void CreateXml()
@@ -41,8 +55,9 @@ namespace Cars
             var cars = new XElement("Cars",
                 from record in records
                 select new XElement("Car",
-                                new XElement("Name", record.Name),
-                                new XElement("Combined", record.Combined))
+                                new XAttribute("Name", record.Name),
+                                new XAttribute("Combined", record.Combined),
+                                new XAttribute("Manufacturer", record.Manufacturer))
             );
 
             document.Add(cars);
