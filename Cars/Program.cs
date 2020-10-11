@@ -29,6 +29,7 @@ namespace Cars
         // Build an xml file from fuel.csv
         // Use functional construction of the xml for less code - more declarative, less imperative
         // Load and query the xml for just the car names of Toyota
+        // Work with xml namespaces
         static void Main(string[] args)
         {
             CreateXml();
@@ -37,8 +38,10 @@ namespace Cars
 
         private static void QueryXml()
         {
+            var ns = (XNamespace)"dummyNamespace";
+            var ex = (XNamespace)"dummyExtendedNamespace";
             var document = XDocument.Load("fuel.xml");
-            var query = document.Element("Cars").Elements("Car").Where(e => e.Attribute("Manufacturer").Value == "Toyota")
+            var query = document.Element(ns + "Cars").Elements(ex + "Car").Where(e => e.Attribute("Manufacturer").Value == "Toyota")
                                                                 .Select(e => e.Attribute("Name").Value);
 
             foreach (var name in query)
@@ -51,15 +54,18 @@ namespace Cars
         {
             var records = ProcessCars("fuel.csv");
 
+            var ns = (XNamespace)"dummyNamespace";
+            var ex = (XNamespace)"dummyExtendedNamespace";
             var document = new XDocument();
-            var cars = new XElement("Cars",
+            var cars = new XElement(ns + "Cars",
                 from record in records
-                select new XElement("Car",
+                select new XElement(ex + "Car",
                                 new XAttribute("Name", record.Name),
                                 new XAttribute("Combined", record.Combined),
                                 new XAttribute("Manufacturer", record.Manufacturer))
             );
 
+            cars.Add(new XAttribute(XNamespace.Xmlns + "ex", ex));
             document.Add(cars);
             document.Save("fuel.xml");
         }
