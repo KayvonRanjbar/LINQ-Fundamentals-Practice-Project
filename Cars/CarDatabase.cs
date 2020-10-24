@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Cars
 {
-    public class CarDb : DbContext
+    public class CarDatabase : DbContext
     {
         public DbSet<Car> Cars { get; set; }
     }
