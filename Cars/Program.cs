@@ -33,6 +33,8 @@ namespace Cars
         // Work with xml namespaces
         // Set up Entity Framework
         // Insert data into a db
+        // Write a basic query with LINQ
+
         static void Main(string[] args)
         {
             Database.SetInitializer(new DropCreateDatabaseIfModelChanges<CarDatabase>());
@@ -43,27 +45,16 @@ namespace Cars
         private static void QueryData()
         {
             var db = new CarDatabase();
-
             db.Database.Log = Console.WriteLine;
 
-            var query =
-                from car in db.Cars
-                group car by car.Manufacturer into manufacturer
-                select new
-                {
-                    Name = manufacturer.Key,
-                    Cars = (from car in manufacturer
-                            orderby car.Highway descending
-                            select car).Take(2)
-                };
+            // Get all cars and order the cars by highway fuel efficiency
+            var query = db.Cars.OrderByDescending(c => c.Highway)
+                               .ThenBy(c => c.Name)
+                               .Take(5);
 
-            foreach (var group in query)
+            foreach (var car in query)
             {
-                Console.WriteLine(group.Name);
-                foreach (var car in group.Cars)
-                {
-                    Console.WriteLine($"\t{car.Name}: {car.Highway}");
-                }
+                Console.WriteLine($"{car.Name}: {car.Highway}");
             }
         }
 
@@ -71,6 +62,7 @@ namespace Cars
         {
             var cars = ProcessCars("fuel.csv");
             var db = new CarDatabase();
+            db.Database.Log = Console.WriteLine;
 
             if (!db.Cars.Any())
             {
